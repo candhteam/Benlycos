@@ -1,0 +1,22 @@
+
+@font-face {
+    font-family: 'Adobe Clean';
+    src: url('AdobeClean-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Adobe Clean';
+    src: url('AdobeClean-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Adobe Clean';
+    src: url('AdobeClean-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
