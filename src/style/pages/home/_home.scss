@@ -1,0 +1,36 @@
+.banner {
+  padding-top: 182px;
+  padding-bottom: 100px;
+  .banner-content {
+    .grid {
+      .home-banner {
+        width: 100%;
+        max-width: 1150px;
+        h1 {
+          font-size: 100px;
+          line-height: 105px;
+          color: $primary;
+          font-weight: $regular;
+          padding-bottom: 125px;
+        }
+      }
+    }
+    .video-banner {
+      height: 500px;
+      .video-container {
+        display: flex;
+        height: 100%;
+        video {
+          width: 100%;
+          max-width: 680px;
+        }
+      }
+    }
+  }
+  .banner-data {
+    font-size: 25px;
+    line-height: 35px;
+    color: $primary;
+    max-width: 853px;
+  }
+}
