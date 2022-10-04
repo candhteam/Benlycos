@@ -16,4 +16,170 @@
       font-weight: $light;
     }
   }
+
+  .slider-wrapper {
+    padding-top: 141px;
+    margin-left: 110px;
+    h3 {
+      margin: 0;
+      font-size: 20px;
+      line-height: 30px;
+      color: $lightgrey;
+      font-weight: $regular;
+      padding-bottom: 30px;
+    }
+
+    .slider-container {
+      width: 2350px;
+      .slider-holder {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 2fr);
+        gap: 30px;
+        .slider-block {
+          background-color: $secondaryblue;
+          padding-top: 77px;
+          padding-bottom: 103px;
+          padding-left: 67px;
+          border-radius: 10px;
+          margin-left: -60px;
+          width: 565px;
+          &.first {
+            // padding-left: 120px;
+          }
+          .slider-heading {
+            color: $lightgrey;
+            font-size: 35px;
+            line-height: 45px;
+            font-weight: $light;
+            padding-top: 15px;
+            padding-bottom: 2px;
+            margin: 0;
+          }
+          .sub-heading {
+            color: $golden;
+            margin: 0;
+            font-size: 22px;
+            line-height: 32px;
+            font-weight: $regular;
+            padding-bottom: 30px;
+          }
+          .slider-list {
+            margin: 0;
+            .slider-item {
+              color: $white;
+              font-size: 18px;
+              line-height: 32px;
+              font-weight: $light;
+            }
+          }
+        }
+        .slick-prev {
+          display: none;
+        }
+        .slick-next {
+          display: none;
+        }
+      }
+    }
+  }
+  .major-problems {
+    padding-top: 168px;
+    .problems-block {
+      width: 650px;
+      h4 {
+        font-weight: $regular;
+        color: $white;
+        padding-bottom: 28px;
+      }
+      .s-content {
+        font-size: 25px;
+        line-height: 35px;
+        color: $white;
+        font-weight: $light;
+        padding-bottom: 40px;
+      }
+      .s-subcontent {
+        color: $white;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: $light;
+      }
+    }
+  }
+  .graph-block {
+    padding-bottom: 95px;
+    .graph-wrapper {
+      padding-top: 95px;
+      .graph-content {
+        display: flex;
+        align-items: center;
+        padding-bottom: 62px;
+        width: 100%;
+        .g-blocks {
+          .graph {
+            width: 170px;
+            position: relative;
+            .number {
+              position: absolute;
+              top: 40%;
+              bottom: 50%;
+              right: 0%;
+              left: 35%;
+              color: $white;
+              font-size: 25px;
+              line-height: 35px;
+              font-weight: $bold;
+            }
+          }
+        }
+        .gblock-headings {
+          padding-left: 42px;
+          .graph-heading {
+            color: $white;
+            font-size: 30px;
+            line-height: 45px;
+            font-weight: $regular;
+          }
+          .graph-subheading {
+            color: $golden;
+            font-size: 20px;
+            line-height: 21px;
+            font-weight: $regular;
+          }
+        }
+      }
+    }
+  }
+  .solution-block {
+    .solution-contents {
+      width: 650px;
+      h4 {
+        color: $white;
+        padding-bottom: 28px;
+        font-weight: $regular;
+      }
+      .s-content {
+        font-size: 25px;
+        line-height: 35px;
+        color: $white;
+        font-weight: $light;
+        padding-bottom: 40px;
+      }
+      .s-subcontent {
+        color: $white;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: $light;
+        padding-bottom: 35px;
+      }
+      .know-more {
+        text-decoration: underline;
+        font-size: 18px;
+        line-height: 28px;
+        color: $white;
+        font-weight: $bold;
+      }
+    }
+  }
 }
