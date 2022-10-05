@@ -1,0 +1,28 @@
+.internet-section {
+  background-color: $primary;
+  .right-content {
+    padding-top: 132px;
+    padding-bottom: 171px;
+    h2 {
+      color: $white;
+      font-weight: $light;
+      width: 700px;
+      padding-bottom: 40px;
+    }
+    .demo-block {
+      .demo-link {
+        background-color: $golden;
+        padding: 23px 45px;
+        border-radius: 10px;
+        color: $white;
+        font-size: 20px;
+        line-height: 32px;
+        font-weight: $regular;
+        &::after {
+          content: ">>";
+          padding-left: 34px;
+        }
+      }
+    }
+  }
+}
