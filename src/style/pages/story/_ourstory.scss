@@ -1,4 +1,70 @@
-.the-team__banner {
+.the-team__banner{
   width: 100%;
-  background-color: rgb(137, 117, 155);
+  height: auto;
+  padding-top: 262px;
+  .container{
+    .case-study__wrapper-row{
+     .grid{
+      .the-team__left-block{
+       .the-team__header{
+        h4{
+font-family: $font-1;
+font-weight: $bold;
+color: $primary;
+margin: 0;
+        }
+        .the-team__discription{
+          display: grid;
+          grid-template-columns: repeat(1,1fr);
+          gap: 79px;
+          padding-top: 25px;
+          padding-right: 140px;
+          .team-paragraph{
+font-size: 30px;
+line-height: 40px;
+color: $primary;
+font-weight: $font-1;
+margin: 0;
+          }
+        }
+       } 
+      }
+     .the-team__right-block{
+      .the-team__image--flex{
+        display: flex;
+        padding-top: 88px;
+        gap: 82px;
+     .image__profile-card{
+      // width: 288px;
+      // height: 378px;
+      img{
+max-width: 220px;
+      }
+      .name__profile{
+        padding-top: 21px;
+        p{
+font-size: 22px;
+line-height: 30px;
+color: #091B56;
+font-family: $font-1;
+font-weight: $bold;
+padding-left: 5px;
+        }
+        ul{
+padding-left: 5px;
+          li{
+            font-size: 18px;
+            line-height: 25px;
+            font-family: $font-1;
+            font-weight: $regular;
+            color:#091B56;
+          }
+        }
+      }
+     }   
+      }
+     } 
+     } 
+    }
+  }
 }
