@@ -1,0 +1,98 @@
+.zifilink-block {
+  padding-bottom: 180px;
+  .zififileft-block {
+    padding-top: 265px;
+    padding-left: 115px;
+    padding-right: 235px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .zifi-img {
+      width: 250px;
+    }
+    .left-zifilink {
+      .zifileft-content {
+        font-size: 20px;
+        line-height: 30px;
+        color: $black;
+        font-weight: $regular;
+        padding-bottom: 67px;
+      }
+      .zifilink-link {
+        background-color: $goldenbrown;
+        padding: 10px 35px;
+        border-radius: 20px;
+        color: $white;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: $light;
+      }
+    }
+  }
+  .zifiright-block {
+    padding-top: 125px;
+    .zifiheading-block {
+      border-bottom: 1px solid $line;
+      .zifi-heading {
+        font-size: 25px;
+        line-height: 35px;
+        color: $grey;
+        font-weight: $bold;
+        padding-bottom: 22px;
+      }
+    }
+    .zifi-italicfont {
+      p {
+        width: 900px;
+        padding-top: 75px;
+        font-style: italic;
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: $light;
+        color: $black;
+      }
+    }
+    .productivity-block {
+      padding-top: 70px;
+      padding-bottom: 232px;
+      .productivity-flex {
+        display: flex;
+        .productivity-group {
+          .production {
+            color: $golden;
+            font-size: 70px;
+            line-height: 70px;
+            padding-bottom: 10px;
+            font-weight: $bold;
+          }
+          .production-heading {
+            color: #42475f;
+            font-size: 30px;
+            line-height: 40px;
+            font-weight: $bold;
+          }
+          &.key {
+            width: 205px;
+          }
+        }
+        .line {
+          width: 1px;
+          height: 150px;
+          background-color: $line;
+          transform: rotate(20deg);
+          margin: 0 50px;
+        }
+      }
+    }
+    .clients-block {
+      .clients-flex {
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(4, 1fr);
+        img {
+          width: 150px;
+        }
+      }
+    }
+  }
+}
