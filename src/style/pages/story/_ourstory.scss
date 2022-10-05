@@ -4,6 +4,52 @@
   padding-top: 262px;
   .container{
     .case-study__wrapper-row{
+      .grid{
+       .case-study__left-block{
+        .mission-vission__header{
+          h4{
+            color: #091B56;
+            font-family: $font-1;
+            font-weight:$bold;
+margin: 0;
+          }
+          .mission-vission{
+font-size: 30px;
+line-height: 40px;
+font-family: $font-1;
+font-style: italic;
+color:#091B56;
+max-width: 612px;
+padding-top: 25px;
+
+          }
+        }
+       } 
+       .case-study__right-block{
+        .mission-vission__header{
+          h4{
+            color: #091B56;
+            font-family: $font-1;
+            font-weight:$bold;
+margin: 0;
+          }
+          .mission-vission{
+font-size: 30px;
+line-height: 40px;
+font-family: $font-1;
+font-style: italic;
+color:#091B56;
+max-width: 612px;
+padding-top: 25px;
+          }
+        }
+       }
+      }
+    }
+    .row-padding{
+      padding-top: 298px;
+    }
+    .case-study__wrapper-row{
      .grid{
       .the-team__left-block{
        .the-team__header{
@@ -25,6 +71,7 @@ line-height: 40px;
 color: $primary;
 font-weight: $font-1;
 margin: 0;
+font-style: italic;
           }
         }
        } 
@@ -48,10 +95,10 @@ line-height: 30px;
 color: #091B56;
 font-family: $font-1;
 font-weight: $bold;
-padding-left: 5px;
+
         }
         ul{
-padding-left: 5px;
+
           li{
             font-size: 18px;
             line-height: 25px;
@@ -61,10 +108,16 @@ padding-left: 5px;
           }
         }
       }
+      .profile-padding{
+        padding-left: 25px;
+      }
      }   
       }
      } 
      } 
+    }
+    .pading-top{
+      padding-top: 262px;
     }
   }
 }
