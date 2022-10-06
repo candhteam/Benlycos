@@ -1,8 +1,5 @@
 @media (max-width: $media-md) {
   .grid {
-    display: flex !important;
-    justify-content: space-between;
-    align-items: center;
     .logo {
       &.logo-img {
         width: 120px !important;
