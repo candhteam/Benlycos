@@ -1,3 +1,10 @@
+const navToogle = document.querySelector(".navmenu");
+const primaryNav = document.querySelector(".navigation");
+
+navToogle.addEventListener("click", () => {
+  primaryNav.classList.toggle("opened");
+});
+
 $("input").focus(function () {
   $(this).parents(".form-group").addClass("focused");
 });
@@ -10,4 +17,12 @@ $("input").blur(function () {
   } else {
     $(this).addClass("filled");
   }
+});
+
+$(".slider-holder").slick({
+  dots: false,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  variableWidth: true,
 });

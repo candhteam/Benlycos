@@ -2,6 +2,10 @@
   overflow: hidden;
   padding-top: 182px;
   padding-bottom: 100px;
+  @media (max-width: $media-md) {
+    padding-top: 120px;
+    padding-bottom: 30px;
+  }
   .banner-content {
     .grid {
       .home-banner {
@@ -13,15 +17,33 @@
           color: $primary;
           font-weight: $regular;
           padding-bottom: 125px;
+          margin: 0;
+
+          @media (max-width: $media-md) {
+            font-size: 56px;
+            line-height: 66px;
+          }
+          @media (max-width: $media-sm) {
+            font-size: 36px;
+            line-height: 46px;
+            padding-bottom: 40px;
+          }
         }
       }
     }
     .video-banner {
       height: 500px;
+      @media (max-width) {
+        height: 300px;
+      }
+      @media (max-width: $media-sm) {
+        height: 82px;
+      }
       .video-container {
         display: flex;
         height: 100%;
         video {
+          object-fit: cover;
           width: 100%;
           max-width: 680px;
         }
@@ -34,6 +56,10 @@
     color: $primary;
     max-width: 853px;
     padding-top: 100px;
-    padding-bottom: 100px;
+    @media (max-width: $media-md) {
+      font-size: 16px;
+      line-height: 26px;
+      padding-top: 30px;
+    }
   }
 }
