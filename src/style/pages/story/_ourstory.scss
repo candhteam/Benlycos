@@ -1,122 +1,120 @@
-.the-team__banner{
+.the-team__banner {
   width: 100%;
   height: auto;
   padding-top: 262px;
-  .container{
-    .case-study__wrapper-row{
-      .grid{
-       .case-study__left-block{
-        .mission-vission__header{
-          h4{
-            color: #091B56;
-            font-family: $font-1;
-            font-weight:$bold;
-margin: 0;
-          }
-          .mission-vission{
-font-size: 30px;
-line-height: 40px;
-font-family: $font-1;
-font-style: italic;
-color:#091B56;
-max-width: 612px;
-padding-top: 25px;
-
-          }
-        }
-       } 
-       .case-study__right-block{
-        .mission-vission__header{
-          h4{
-            color: #091B56;
-            font-family: $font-1;
-            font-weight:$bold;
-margin: 0;
-          }
-          .mission-vission{
-font-size: 30px;
-line-height: 40px;
-font-family: $font-1;
-font-style: italic;
-color:#091B56;
-max-width: 612px;
-padding-top: 25px;
+  padding-bottom: 290px;
+  .container {
+    .case-study__wrapper-row {
+      .grid {
+        .case-study__left-block {
+          .mission-vission__header {
+            h4 {
+              color: #091b56;
+              font-family: $font-1;
+              font-weight: $bold;
+              margin: 0;
+            }
+            .mission-vission {
+              font-size: 30px;
+              line-height: 40px;
+              font-family: $font-1;
+              font-style: italic;
+              color: #091b56;
+              max-width: 612px;
+              padding-top: 25px;
+            }
           }
         }
-       }
+        .case-study__right-block {
+          .mission-vission__header {
+            h4 {
+              color: #091b56;
+              font-family: $font-1;
+              font-weight: $bold;
+              margin: 0;
+            }
+            .mission-vission {
+              font-size: 30px;
+              line-height: 40px;
+              font-family: $font-1;
+              font-style: italic;
+              color: #091b56;
+              max-width: 612px;
+              padding-top: 25px;
+            }
+          }
+        }
       }
     }
-    .row-padding{
+    .row-padding {
       padding-top: 298px;
     }
-    .case-study__wrapper-row{
-     .grid{
-      .the-team__left-block{
-       .the-team__header{
-        h4{
-font-family: $font-1;
-font-weight: $bold;
-color: $primary;
-margin: 0;
-        }
-        .the-team__discription{
-          display: grid;
-          grid-template-columns: repeat(1,1fr);
-          gap: 79px;
-          padding-top: 25px;
-          padding-right: 140px;
-          .team-paragraph{
-font-size: 30px;
-line-height: 40px;
-color: $primary;
-font-weight: $font-1;
-margin: 0;
-font-style: italic;
+    .case-study__wrapper-row {
+      .grid {
+        .the-team__left-block {
+          .the-team__header {
+            h4 {
+              font-family: $font-1;
+              font-weight: $bold;
+              color: $primary;
+              margin: 0;
+            }
+            .the-team__discription {
+              display: grid;
+              grid-template-columns: repeat(1, 1fr);
+              gap: 79px;
+              padding-top: 25px;
+              padding-right: 140px;
+              .team-paragraph {
+                font-size: 30px;
+                line-height: 40px;
+                color: $primary;
+                font-weight: $font-1;
+                margin: 0;
+                font-style: italic;
+              }
+            }
           }
         }
-       } 
-      }
-     .the-team__right-block{
-      .the-team__image--flex{
-        display: flex;
-        padding-top: 88px;
-        gap: 82px;
-     .image__profile-card{
-      // width: 288px;
-      // height: 378px;
-      img{
-max-width: 220px;
-      }
-      .name__profile{
-        padding-top: 21px;
-        p{
-font-size: 22px;
-line-height: 30px;
-color: #091B56;
-font-family: $font-1;
-font-weight: $bold;
-
-        }
-        ul{
-
-          li{
-            font-size: 18px;
-            line-height: 25px;
-            font-family: $font-1;
-            font-weight: $regular;
-            color:#091B56;
+        .the-team__right-block {
+          .the-team__image--flex {
+            display: flex;
+            padding-top: 88px;
+            gap: 82px;
+            .image__profile-card {
+              // width: 288px;
+              // height: 378px;
+              img {
+                max-width: 220px;
+              }
+              .name__profile {
+                padding-top: 21px;
+                p {
+                  font-size: 22px;
+                  line-height: 30px;
+                  color: #091b56;
+                  font-family: $font-1;
+                  font-weight: $bold;
+                }
+                ul {
+                  li {
+                    font-size: 18px;
+                    line-height: 25px;
+                    font-family: $font-1;
+                    font-weight: $regular;
+                    color: #091b56;
+                  }
+                }
+              }
+              .profile-padding {
+                padding-left: 25px;
+              }
+            }
           }
         }
       }
-      .profile-padding{
-        padding-left: 25px;
-      }
-     }   
-      }
-     } 
-     } 
     }
-    .pading-top{
+    .pading-top {
       padding-top: 262px;
     }
   }
