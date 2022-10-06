@@ -3,6 +3,10 @@
   padding-top: 207px;
   height: auto;
   padding-bottom: 249px;
+  @media (max-width: $media-md){
+    padding-top: 150px;
+  }
+
   .container {
     .case-study__wrapper-row {
       .grid {
@@ -12,6 +16,9 @@
           .case-study__main-header {
             width: 645px;
             padding-bottom: 49px;
+            @media (max-width: $media-xs){
+              padding-bottom: 42px;
+            }
             h2 {
               width: 100%;
               margin: 0;
@@ -19,6 +26,14 @@
               color: $primary;
               font-family: $font-1;
               font-weight: $regular;
+              @media (max-width: $media-sm){
+                font-size: 55px;
+                line-height: 65px;
+              }
+              @media (max-width: $media-xs){
+                font-size: 35px;
+                line-height: 45px;
+              }
             }
           }
         }
@@ -30,12 +45,29 @@
         .case-study__left-block {
           .case-study__sub-header {
             padding-top: 179px;
+            @media (max-width: $media-md){
+              padding-top: 80px;
+            }
+            @media (max-width: $media-sm){
+              padding-top: 20px;
+            }
+            @media (max-width: $media-xs){
+              padding-top: 0px;
+            }
             h4 {
               margin: 0;
               color: $primary;
               // line-height: 105px;
               font-family: $font-1;
               font-weight: $bold;
+              @media (max-width: $media-sm){
+                font-size: 30px;
+                line-height: 40px;
+              }
+              @media (max-width: $media-xs){
+                font-size: 20px;
+                line-height: 30px;
+              }
             }
             p {
               font-size: 30px;
@@ -47,9 +79,23 @@
               max-width: 338px;
               margin: 0;
               padding-top: 12px;
+              @media (max-width: $media-sm){
+                padding-bottom: 12px;
+                font-size: 20px;
+                line-height: 30px;
+              }
+              @media (max-width: $media-xs){
+                padding-bottom: 10px;
+                font-size: 15px;
+                line-height: 25px;
+                max-width: 169px;
+              }
             }
             .sub-discription_media {
               max-width: 391px;
+              @media (max-width: $media-sm){
+                max-width: 500px; 
+              } 
             }
             .sub-discription-event {
               max-width: 437px;
@@ -79,10 +125,23 @@
               padding-bottom: 15px;
               max-width: 873px;
               width: 100%;
+              @media (max-width: $media-sm){ 
+                max-width: 550px; 
+                font-size: 16px;
+              line-height: 26px;
+              } 
+              @media (max-width: $media-sm){ 
+                max-width: 367px; 
+                font-size: 14px;
+              line-height: 24px;
+              } 
             }
           }
           .case-study__changes-header {
             padding-top: 43px;
+            @media (max-width: $media-sm){ 
+              padding-top: 30px;
+            }
             .challenge {
               margin: 0;
               font-size: 30px;
@@ -90,6 +149,10 @@
               color: $primary;
               font-family: $font-1;
               font-weight: $bold;
+              @media (max-width: $media-xs){ 
+                font-size: 26px;
+              line-height: 36px;
+              }
             }
             .change__discription {
               font-size: 20px;
@@ -98,7 +161,11 @@
               font-family: $font-1;
               font-weight: $regular;
               margin: 0;
-              padding-top: 11px;
+              padding-top: 15px;
+              @media (max-width: $media-xs){ 
+                font-size: 17px;
+              line-height: 27px;
+              }
             }
             .change-list {
               list-style: circle;
@@ -109,6 +176,13 @@
                 font-family: $font-1;
                 font-weight: $regular;
                 padding-top: 7px;
+                @media (max-width: $media-xs){ 
+                  font-size: 16px;
+                line-height: 28px;
+                }
+              }
+              @media (max-width: $media-xs){ 
+                margin-bottom: 69px;
               }
             }
             .change-paragraph-list {
@@ -129,6 +203,10 @@
             padding-left: 80px;
             padding-top: 85px;
             border-radius: 10px 0px;
+            @media (max-width: $media-xs){ 
+              padding-left: 30px;
+              padding-top: 57px;
+            }
             .solution__header {
               .challenge--white-font {
                 margin: 0;
@@ -137,6 +215,10 @@
                 color: $white;
                 font-family: $font-1;
                 font-weight: $bold;
+                @media (max-width: $media-xs){ 
+                  font-size: 25px;
+                line-height: 35px;
+                }
               }
               .change__discription--white-font {
                 font-size: 20px;
@@ -177,6 +259,12 @@
     }
     .top-space {
       padding-top: 153px;
+      @media (max-width: $media-md){
+        padding-top: 80px;
+      }
+      @media (max-width: $media-sm){
+        padding-top: 60px;
+      } 
     }
   }
 }
