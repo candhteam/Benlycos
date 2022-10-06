@@ -1,22 +1,31 @@
 .solution-section{
-    padding-top: 54px;
+    padding-top: 58px;
     .solution-wrapper{
         .grid{
-            display: grid;
-            grid-template-columns: 1.5fr 2fr;
-            width: 100%;
             .solution_block{
                 background-color: $primary;
                 padding: 85px 80px 85px 80px ;
-                border-radius: 10px 0px 0px 0px;
-
+                border-radius: 10px 0px 10px 0px;
+                @media (max-width: $media-sm){
+                    padding-top: 67px;
+                    padding-left: 40px;
+                  }
+                  @media (max-width: $media-xs){
+                    padding-top: 57px;
+                    padding-left: 30px;
+                  }
                 h3{
                     color:$white; 
                    font-size: 30px;
                    font-weight: $bold;
                    font-family: $font-1;
                    line-height: 40px;
-                   
+                   @media (max-width: $media-sm){
+                    font-size: 28px;
+                  }
+                  @media (max-width: $media-xs){
+                    font-size: 25px;
+                  }
 
                 }
                 p{
@@ -26,6 +35,14 @@
                    font-family: $font-1;
                    line-height: 28px;
                    padding-bottom: 8px;
+                   @media (max-width: $media-sm){
+                    font-size: 18px;
+                    padding-top: 30px;
+                  }
+                  @media (max-width: $media-sm){
+                    font-size: 16px;
+                    padding-top: 23px;
+                  }
                 }
             }
         }

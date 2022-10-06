@@ -2,7 +2,15 @@
   width: 100%;
   height: auto;
   padding-top: 262px;
-  padding-bottom: 290px;
+  padding-bottom: 200px;
+  @media (max-width: $media-md){
+    padding-top: 0px;
+    padding-bottom: 160px;
+  }
+  @media (max-width: $media-md){
+    padding-top: 0px;
+    padding-bottom: 120px;
+  }
   .container {
     .case-study__wrapper-row {
       .grid {
@@ -22,6 +30,12 @@
               color: #091b56;
               max-width: 612px;
               padding-top: 25px;
+              @media (max-width: $media-sm){
+                font-size: 22px;
+              }
+              @media (max-width: $media-xs){
+                font-size: 16px;
+              }
             }
           }
         }
@@ -41,6 +55,12 @@
               color: #091b56;
               max-width: 612px;
               padding-top: 25px;
+              @media (max-width: $media-sm){
+                font-size: 22px;
+              }
+              @media (max-width: $media-xs){
+                font-size: 16px;
+              }
             }
           }
         }
@@ -48,9 +68,16 @@
     }
     .row-padding {
       padding-top: 298px;
+      @media (max-width: $media-md){
+        padding-top: 80px;
+      }
+      @media (max-width: $media-sm){
+        padding-top: 68px;
+      }
     }
     .case-study__wrapper-row {
       .grid {
+       
         .the-team__left-block {
           .the-team__header {
             h4 {
@@ -65,6 +92,12 @@
               gap: 79px;
               padding-top: 25px;
               padding-right: 140px;
+              @media (max-width: $media-md){
+                padding-right: 40px;
+              }
+              @media (max-width: $media-sm){
+                padding-right: 0px;
+              }
               .team-paragraph {
                 font-size: 30px;
                 line-height: 40px;
@@ -72,6 +105,12 @@
                 font-weight: $font-1;
                 margin: 0;
                 font-style: italic;
+                @media (max-width: $media-sm){
+                  font-size: 22px;
+                }
+                @media (max-width: $media-xs){
+                  font-size: 16px;
+                }
               }
             }
           }
@@ -81,6 +120,22 @@
             display: flex;
             padding-top: 88px;
             gap: 82px;
+            @media (max-width: $media-md){
+              gap: 50px;
+            }
+            @media (max-width: $media-sm){
+              display: grid;
+              grid-template-columns: repeat(2,1fr);
+              gap: 30px;
+              padding-left: 30px;
+            }
+            @media (max-width: $media-xs){
+              display:flex;
+              flex-direction: column;
+              gap: 42px;
+              justify-content: center;
+              align-items: center;
+            }
             .image__profile-card {
               // width: 288px;
               // height: 378px;
@@ -116,6 +171,9 @@
     }
     .pading-top {
       padding-top: 262px;
+      @media (max-width: $media-md){
+        padding-top: 100px;
+      }
     }
   }
 }

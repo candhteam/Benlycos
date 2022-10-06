@@ -1,5 +1,11 @@
 .company-section {
   padding-top: 207px;
+  @media (max-width: $media-sm){
+    padding-top: 150px;
+  }
+  @media (max-width: $media-xs){
+    padding-top: 150px;
+  }
   .container {
     .grid {
       .company_block {
@@ -12,10 +18,25 @@
           letter-spacing: 1.05px;
           padding: 0;
           margin: 0;
+          @media (max-width: $media-sm){
+            font-size: 55px;
+          }
+          @media (max-width: $media-xs){
+            font-size: 35px;
+          }
         }
 
         .company-content-block {
           padding-top: 64px;
+          @media (max-width: $media-md){
+            padding-top: 40px;
+          }
+          @media (max-width: $media-sm){
+            padding-top: 30px;
+          }
+          @media (max-width: $media-xs){
+            padding-top: 26px;
+          }
           p {
             padding-bottom: 8px;
             color: $primary;
@@ -23,6 +44,12 @@
             font-weight: $regular;
             font-family: $font-1;
             line-height: 28px;
+            @media (max-width: $media-sm){
+              font-size: 16px;
+            }
+            @media (max-width: $media-xs){
+              font-size: 14px;
+            }
           }
         }
       }
