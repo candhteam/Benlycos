@@ -67,6 +67,12 @@
             height: 515px;
             padding-left: 44px;
             padding-top: 56px;
+            .slick-prev {
+              display: none;
+            }
+            .slick-next {
+              display: none;
+            }
           }
           .slider-heading {
             color: $lightgrey;
@@ -118,6 +124,11 @@
   }
   .major-problems {
     padding-top: 168px;
+    @media (max-width: $media-md) {
+      padding-top: 60px;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
     .problems-block {
       width: 650px;
       h4 {
@@ -131,12 +142,21 @@
         color: $white;
         font-weight: $light;
         padding-bottom: 40px;
+        @media (max-width: $media-md) {
+          font-size: 20px;
+          line-height: 30px;
+          padding-bottom: 23px;
+        }
       }
       .s-subcontent {
         color: $white;
         font-size: 18px;
         line-height: 28px;
         font-weight: $light;
+        @media (max-width: $media-md) {
+          font-size: 16px;
+          line-height: 26px;
+        }
       }
     }
   }
@@ -144,6 +164,9 @@
     padding-bottom: 95px;
     .graph-wrapper {
       padding-top: 95px;
+      @media (max-width: $media-md) {
+        padding-top: 50px;
+      }
       .graph-content {
         display: flex;
         align-items: center;
