@@ -1,142 +1,141 @@
-footer{
+footer {
   background-color: $primary;
-  .container{
-  
-      .grid{
-         
-          @media (max-width:$media-md) {
-             display:block;
-            }
-          .footer-heading-wrapper{
-              padding-top: 132px;
-              padding-bottom: 150px;
-               display: flex;
-              flex-direction: column;
-              gap:67px;
-              @media (max-width:$media-md) {
-                  padding-top: 64px;
-              padding-bottom: 100px;
-  
-                 }
-               h3{
-                  margin: 0;
-                  padding: 0;
-                  color:$white; 
-                  font-size: 75px;
-                  font-weight: $light;
-                  line-height: 85px;
-                  letter-spacing: 1.05px;
-                  @media (max-width:$media-xs) {
-                      font-size: 43px;
-                      line-height: 53px;
-                    }
-               }
-              a{
-                  max-width: 225px;
-                  padding:21px 0px 21px 48px;
-                  background-color: $golden;
-                  border-radius: 10px;
-                  color:$white;
-                  @media (max-width:$media-md){
-                      max-width: auto;
-                  }
-                  span{
-                      padding-left: 30px;
-                      @media (max-width:$media-xs){
-                          padding-left: 22px;
-                      }
-                  }
-              }
-           }
+  .container {
+    .grid {
+      @media (max-width: $media-md) {
+        display: block;
       }
-  }
-  .footer-link-wrapper{
-  border-top:1px solid #525d96;
-  border-bottom:1px solid #525d96;
-  display: flex;
-  justify-content: space-evenly;
-  
-  @media (max-width:$media-md) {
-      display:block;
+      .footer-heading-wrapper {
+        padding-top: 132px;
+        padding-bottom: 150px;
+        display: flex;
+        flex-direction: column;
+        gap: 67px;
+        @media (max-width: $media-md) {
+          padding-top: 64px;
+          padding-bottom: 60px;
+        }
+        h3 {
+          margin: 0;
+          padding: 0;
+          color: $white;
+          font-size: 75px;
+          font-weight: $light;
+          line-height: 85px;
+          letter-spacing: 1.05px;
+          @media (max-width: $media-xs) {
+            font-size: 43px;
+            line-height: 53px;
+          }
+        }
+        a {
+          display: flex;
+          max-width: 250px;
+          padding: 21px 0px 21px 48px;
+          background-color: $golden;
+          border-radius: 10px;
+          color: $white;
+          &::after {
+            content: ">>";
+            display: block;
+            padding-left: 20px;
+            padding-right: 20px;
+          }
+          @media (max-width: $media-md) {
+            padding-top: 15px;
+            padding-bottom: 13px;
+            padding-left: 20px;
+            max-width: 207px;
+          }
+        }
+      }
     }
-  
-  .fotter-content-col-1{
+  }
+  .footer-link-wrapper {
+    border-top: 1px solid #525d96;
+    border-bottom: 1px solid #525d96;
+    display: flex;
+    justify-content: space-evenly;
+
+    @media (max-width: $media-md) {
+      display: block;
+    }
+
+    .fotter-content-col-1 {
       display: flex;
       flex-direction: column;
       width: 33%;
       padding-left: 100px;
       padding-top: 100px;
-      @media (max-width:$media-md){
-          width:auto;
-          padding-top: 50px;
-          padding-bottom: 50px;
-          padding-left: 50px;
-          
+      @media (max-width: $media-md) {
+        width: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 50px;
       }
-      h4{
-          color:$footerlink;
-          font-size: 16px;
-          font-weight: $bold;
-          line-height: 26px;
-          letter-spacing: 1.6px;
-          margin:0;
-          padding: 0;
-          
+      h4 {
+        color: $footerlink;
+        font-size: 16px;
+        font-weight: $bold;
+        line-height: 26px;
+        letter-spacing: 1.6px;
+        margin: 0;
+        padding: 0;
       }
-      .footer-link-text{
-          display:flex;
-          flex-direction: column;
-          padding-top: 80px;
-          padding-bottom: 150px;
-          @media (max-width:$media-md){
-              padding-bottom: 0px;
-              padding-top: 14px;
-          }
-          a{
-              color:$footerlink;
-              font-size: 18px;
-              font-weight: $regular;
-              line-height: 28px;
-          }
+      .footer-link-text {
+        display: flex;
+        flex-direction: column;
+        padding-top: 80px;
+        padding-bottom: 150px;
+        @media (max-width: $media-md) {
+          padding-bottom: 0px;
+          padding-top: 14px;
+        }
+        a {
+          color: $footerlink;
+          font-size: 18px;
+          font-weight: $regular;
+          line-height: 28px;
+        }
       }
-  
-  }
-  .media-border{
-      @media (max-width:$media-md){
-          border-top:1px solid #525d96;
-          border-bottom:1px solid #525d96;
-          
+    }
+    .media-border {
+      @media (max-width: $media-md) {
+        border-top: 1px solid #525d96;
+        border-bottom: 1px solid #525d96;
       }
-  }
-  
-  .border{
+    }
+
+    .border {
       background-color: #525d96;
-      width:1px;
-      @media (max-width:$media-md){
-          width:0px;
+      width: 1px;
+      @media (max-width: $media-md) {
+        width: 0px;
       }
+    }
   }
-  }
-  .privacy-block{
-  padding-top: 80px;
-  .container{
-  
-      .privacy-wrap{
-          display:flex;
-          justify-content: space-between;
-         
-          a{
-              color:#A7B0DB;
-              font-size: 18px;
-              font-weight: $light;
-              line-height: 26px;
-              @media (max-width:$media-xs){
-                  font-size: 12px;
-              line-height: 15px;
-              }
+  .privacy-block {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    @media (max-width: $media-md) {
+      padding: 35px 0;
+    }
+    .container {
+      .privacy-wrap {
+        display: flex;
+        justify-content: space-between;
+
+        a {
+          color: #a7b0db;
+          font-size: 18px;
+          font-weight: $light;
+          line-height: 26px;
+          @media (max-width: $media-xs) {
+            font-size: 12px;
+            line-height: 15px;
           }
+        }
       }
+    }
   }
-  }
-  
-  }
+}

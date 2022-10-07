@@ -1,183 +1,171 @@
-.bloom_section{
+.bloom_section {
   background-color: $lightblue;
-  height:auto;
-  padding:20px 20px 0px 20px;
-  .bloom_wrapper{
-  padding-top: 121px;
-  padding-bottom: 150px;
-  background-color:$white;
-  border-radius: 10px 10px 0 0;
-  height:auto;
-  @media (max-width:$media-md){
-  padding-top: 80px;
-  }
-  @media (max-width:$media-sm){
-  padding-top: 34px;
-  padding-bottom: 50px;
-  }
-  .container{
-  
-          .grid{
-             
-              @media (max-width:$media-md) {
-                 display:block;
-                }
-             .bloom-col-1{
-              h3{
-                  margin:0;
-                  padding: 0;
-                  color:$grey; 
-                  font-size: 25px;
-                  font-weight: $bold;
-                  line-height: 35px;
-                  letter-spacing: 1.25px;
-                  @media (max-width:$media-xs){
-                      font-size: 16px;
-                      line-height: 25px;
-                  }
-              }
-             } 
+  height: auto;
+  padding: 20px 20px 0px 20px;
+  .bloom_wrapper {
+    padding-top: 121px;
+    padding-bottom: 150px;
+    background-color: $white;
+    border-radius: 10px 10px 0 0;
+    height: auto;
+    @media (max-width: $media-md) {
+      padding-top: 80px;
+    }
+    @media (max-width: $media-sm) {
+      padding-top: 34px;
+      padding-bottom: 50px;
+    }
+    .container {
+      .grid {
+        @media (max-width: $media-md) {
+          display: block;
+        }
+        .bloom-col-1 {
+          h3 {
+            margin: 0;
+            padding: 0;
+            color: $grey;
+            font-size: 25px;
+            font-weight: $bold;
+            line-height: 35px;
+            letter-spacing: 1.25px;
+            @media (max-width: $media-xs) {
+              font-size: 16px;
+              line-height: 25px;
+            }
           }
-          .grid{
-             
-              .bloom-heading-image{
-                  @media (max-width:$media-md){
-                      padding-bottom: 45px;
-                  }
-                  img{
-                     max-width: 226px;
-                    }
-                }
-              .bloom-heading-block{
-                  
-                  h2{
-                      max-width: 867px;
-                      margin:0px;
-                      padding: 0;
-                      color:$lightblue; 
-                      font-size: 65px;
-                      font-weight: $regular;
-                      line-height: 75px;
-                      @media (max-width:$media-xs){
-                          font-size: 35px;
-                          line-height: 45px;
-                      }
-                  }
-                  p{
-                      max-width: 751px;
-                      color:$black; 
-                      font-size: 25px;
-                      font-weight: $regular;
-                      line-height: 35px;
-                      @media (max-width:$media-xs){
-                          font-size: 20px;
-                          line-height: 30px;
-                      }
-                      
-                  }
-                  .modem-image-block{
-                      padding-top: 110px;
-                      display: flex;
-                      gap:100px;
-                      @media (max-width:$media-md){
-                          gap:50px;
-                      }
-                      @media (max-width:$media-xs){
-                          padding-top: 46px;
-                      }
-                      .modem{
-                         
-                          img{
-                              @media (max-width:$media-sm){
-                                  max-width: 180px;
-                              }
-                          }
-                      }
-                     
-                  }
-              }
-  
-          }
-          .top-padding{
-              padding-top: 129px;
-  
-              @media (max-width:$media-md){
-                  padding-top: 80px;
-              }
-              @media (max-width:$media-xs){
-                  padding-top: 29px;
-              }
-          }
-          .grid{
-              
-              .whats-new-block{
-                  h3{
-                      max-width:320px;
-                      margin:0px;
-                      padding: 0;
-                      color:$black; 
-                      font-size: 50px;
-                      font-weight: $bold;
-                      line-height: 60px;
-                      @media (max-width:$media-sm){
-                          font-size: 35px;
-                          line-height: 45px;
-                      }
-                  }
-              }
-              .whats-new-right-block{
-                  .right-content-block{
-                    padding-bottom: 28px;
-                    border-bottom: 0.5px solid #525d96;
-                    padding-top: 43px;
-                      p{
-                          max-width: 751px;
-                          color:$black; 
-                          font-size: 20px;
-                          font-weight: $regular;
-                          line-height: 30px;
-                         
-                      }
-                  }
-              }
-          }
-          .top-space{
-              padding-top: 180px;
-              @media (max-width:$media-sm){
-                  padding-top: 46px;
-              }
-              
-          }
-          .grid{
-             
-              .gitex-block{
-                  @media (max-width:$media-sm){
-                      padding-bottom: 41px;
-                  }
-                  img{
-                      max-width: 310px;  
-                      @media (max-width:$media-sm){
-                          max-width: 200px; 
-                      }
-                  }
-              }
-              .gitex-content-block{
-                  p{
-                      margin:0;
-                      color:$lightblue; 
-                      font-size: 30px;
-                      font-weight: $bold;
-                      line-height: 40px;
-                      @media (max-width:$media-sm){
-                          font-size: 23px;
-                          line-height: 33px;
-                      }
-                  }
-              }
-          }
-          .top-space-2{
-              padding-top: 138px;
-          }
+        }
       }
+      .grid {
+        .bloom-heading-image {
+          @media (max-width: $media-md) {
+            padding-bottom: 45px;
+          }
+          img {
+            max-width: 380px;
+          }
+        }
+        .bloom-heading-block {
+          h2 {
+            max-width: 867px;
+            margin: 0px;
+            padding: 0;
+            color: $lightblue;
+            font-size: 65px;
+            font-weight: $regular;
+            line-height: 75px;
+            @media (max-width: $media-xs) {
+              font-size: 35px;
+              line-height: 45px;
+            }
+          }
+          p {
+            max-width: 751px;
+            color: $black;
+            font-size: 25px;
+            font-weight: $regular;
+            line-height: 35px;
+            @media (max-width: $media-xs) {
+              font-size: 20px;
+              line-height: 30px;
+            }
+          }
+          .modem-image-block {
+            padding-top: 110px;
+            display: flex;
+            gap: 100px;
+            @media (max-width: $media-md) {
+              gap: 50px;
+            }
+            @media (max-width: $media-xs) {
+              padding-top: 46px;
+            }
+            .modem {
+              img {
+                @media (max-width: $media-sm) {
+                  max-width: 180px;
+                }
+              }
+            }
+          }
+        }
+      }
+      .top-padding {
+        padding-top: 129px;
+
+        @media (max-width: $media-md) {
+          padding-top: 80px;
+        }
+        @media (max-width: $media-xs) {
+          padding-top: 29px;
+        }
+      }
+      .grid {
+        .whats-new-block {
+          h3 {
+            max-width: 320px;
+            margin: 0px;
+            padding: 0;
+            color: $black;
+            font-size: 50px;
+            font-weight: $bold;
+            line-height: 60px;
+            @media (max-width: $media-sm) {
+              font-size: 35px;
+              line-height: 45px;
+            }
+          }
+        }
+        .whats-new-right-block {
+          .right-content-block {
+            padding-bottom: 28px;
+            border-bottom: 0.5px solid #525d96;
+            padding-top: 43px;
+            p {
+              max-width: 751px;
+              color: $black;
+              font-size: 20px;
+              font-weight: $regular;
+              line-height: 30px;
+            }
+          }
+        }
+      }
+      .top-space {
+        padding-top: 180px;
+        @media (max-width: $media-sm) {
+          padding-top: 46px;
+        }
+      }
+      .grid {
+        .gitex-block {
+          @media (max-width: $media-sm) {
+            padding-bottom: 41px;
+          }
+          img {
+            max-width: 310px;
+            @media (max-width: $media-sm) {
+              max-width: 200px;
+            }
+          }
+        }
+        .gitex-content-block {
+          p {
+            margin: 0;
+            color: $lightblue;
+            font-size: 30px;
+            font-weight: $bold;
+            line-height: 40px;
+            @media (max-width: $media-sm) {
+              font-size: 23px;
+              line-height: 33px;
+            }
+          }
+        }
+      }
+      .top-space-2 {
+        padding-top: 138px;
+      }
+    }
   }
-  }
+}
