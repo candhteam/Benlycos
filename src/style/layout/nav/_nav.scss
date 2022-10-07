@@ -31,6 +31,7 @@
               font-weight: $light;
               color: $navblue;
               position: relative;
+              cursor: pointer;
               &::before {
                 content: "";
                 display: block;

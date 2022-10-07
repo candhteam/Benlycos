@@ -5,6 +5,7 @@
   padding-bottom: 303px;
   @media (max-width: $media-md) {
     padding-top: 44px;
+    padding-bottom: 150px;
   }
   .s-contentsection {
     max-width: 650px;
@@ -54,9 +55,11 @@
       .slider-holder {
         display: flex;
         width: 100%;
+        margin-left: -60px;
         @media (max-width: $media-md) {
           margin-left: 0;
           display: block;
+          margin-left: 0;
         }
         .slider-block {
           background-color: $secondaryblue;
@@ -165,6 +168,9 @@
   }
   .graph-block {
     padding-bottom: 95px;
+    @media (max-width: $media-sm) {
+      padding-bottom: 58px;
+    }
     .graph-wrapper {
       padding-top: 95px;
       @media (max-width: $media-md) {
@@ -175,12 +181,18 @@
         align-items: center;
         padding-bottom: 62px;
         width: 100%;
+        @media (max-width: $media-sm) {
+          padding-bottom: 35px;
+        }
         .g-blocks {
           .graph {
             width: 170px;
             position: relative;
             @media (max-width: $media-md) {
               width: 150px;
+            }
+            @media (max-width: $media-sm) {
+              width: 100px;
             }
             .number {
               position: absolute;
@@ -192,11 +204,22 @@
               font-size: 25px;
               line-height: 35px;
               font-weight: $bold;
+              @media (max-width: $media-md) {
+                font-size: 20px;
+                line-height: 20px;
+              }
+              @media (max-width: $media-sm) {
+                font-size: 15px;
+                line-height: 25px;
+              }
             }
           }
         }
         .gblock-headings {
           padding-left: 42px;
+          @media (max-width: $media-sm) {
+            padding-left: 22px;
+          }
           .graph-heading {
             color: $white;
             font-size: 30px;
@@ -224,6 +247,9 @@
   .solution-block {
     .solution-contents {
       width: 650px;
+      @media (max-width: $media-md) {
+        width: 100%;
+      }
       h4 {
         color: $white;
         padding-bottom: 28px;
@@ -235,6 +261,10 @@
         color: $white;
         font-weight: $light;
         padding-bottom: 40px;
+        @media (max-width: $media-sm) {
+          font-size: 20px;
+          line-height: 30px;
+        }
       }
       .s-subcontent {
         color: $white;

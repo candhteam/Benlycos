@@ -8,6 +8,9 @@
       font-weight: $light;
       width: 700px;
       padding-bottom: 40px;
+      @media (max-width: $media-lg) {
+        width: 100%;
+      }
     }
     .demo-block {
       .demo-link {
