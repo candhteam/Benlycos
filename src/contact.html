@@ -139,14 +139,14 @@
             </h2>
           </div>
           <div class="contact_form-block">
-            <form>
+            <form method="POST" name="google-sheet">
               <div class="form-inner">
                 <div class="form-group">
                   <label for="name" class="form-label">Name</label>
                   <input
                     type="text"
                     id="fname"
-                    name="fname"
+                    name="Name"
                     class="form-input"
                   />
                 </div>
@@ -155,7 +155,7 @@
                   <input
                     type="email"
                     id="email"
-                    name="email"
+                    name="Email"
                     class="form-input"
                   />
                 </div>
@@ -164,7 +164,7 @@
                   <input
                     type="text"
                     id="phone"
-                    name="phone"
+                    name="Phone"
                     class="form-input"
                   />
                 </div>
@@ -173,7 +173,7 @@
                   <input
                     type="text"
                     id="cname"
-                    name="cname"
+                    name="Cname"
                     class="form-input"
                   />
                 </div>
@@ -182,12 +182,17 @@
                   <input
                     type="text area"
                     id="cname"
-                    name="cname"
+                    name="Message"
                     class="form-input input-padding"
                   />
                 </div>
                 <div class="contact-submit-block">
-                  <input type="submit" value="Submit" class="button-sub" />
+                  <input
+                    type="submit"
+                    value="Submit"
+                    name="submit"
+                    class="button-sub"
+                  />
                 </div>
               </div>
             </form>
@@ -304,5 +309,18 @@
     ></script>
 
     <script src="https://cdn.lordicon.com/pzdvqjsp.js"></script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbzrjRmXxTyTKWcUX8_nNAfBxrWX6_V6DXDcVmzYSBb5QTYwsUkDpfPhnAMvc88Hkd4yzQ/exec";
+      const form = document.forms["google-sheet"];
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) =>
+            alert("Thanks for Contacting us..! We Will Contact You Soon...")
+          )
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
   </body>
 </html>

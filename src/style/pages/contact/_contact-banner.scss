@@ -1,8 +1,8 @@
 .contact_section {
   padding-top: 235px;
-  @media (max-width: $media-md){
-            padding-top: 150px;
-        }
+  @media (max-width: $media-md) {
+    padding-top: 150px;
+  }
   .container {
     .grid {
       .contact_title-col {
@@ -15,30 +15,30 @@
           letter-spacing: 0.91px;
           padding: 0;
           margin: 0;
-          @media (max-width: $media-sm){
-                                    font-size: 45px;
-                                    line-height: 55px;
-                                }
-                                @media (max-width: $media-xs){
-                                    font-size: 35px;
-                                    line-height: 45px;
-                                }
+          @media (max-width: $media-sm) {
+            font-size: 45px;
+            line-height: 55px;
+          }
+          @media (max-width: $media-xs) {
+            font-size: 35px;
+            line-height: 45px;
+          }
         }
       }
       .contact_form-block {
-        @media (max-width: $media-md){
-                              padding-top: 45px;
-                          }
+        @media (max-width: $media-md) {
+          padding-top: 45px;
+        }
         form {
           width: 70%;
-          @media (max-width: $media-md){
-                                    width:auto;
-                    
-                                }
+          @media (max-width: $media-md) {
+            width: auto;
+          }
           .focused {
             .form-label {
               transform: translateY(-125%);
               font-size: 10px;
+              opacity: 0.5;
             }
           }
           .form-inner {
@@ -52,14 +52,15 @@
                 left: 0;
                 top: 10px;
                 color: $primary;
+                font-weight: $light;
                 background-color: transparent;
                 z-index: 10;
                 font-size: 18px;
                 transition: transform 150ms ease-out, font-size 150ms ease-out;
-                @media (max-width: $media-sm){
-                                                      font-size: 16px;
-                                                      line-height: 26px;
-                                                  }
+                @media (max-width: $media-sm) {
+                  font-size: 16px;
+                  line-height: 26px;
+                }
               }
 
               .form-input {
@@ -78,9 +79,9 @@
               .input-padding {
                 padding-bottom: 100px;
               }
-              .form-input.filled {
-                box-shadow: 0 2px 0 0 lightgreen;
-              }
+              // .form-input.filled {
+              //   box-shadow: 0 2px 0 0 lightgreen;
+              // }
             }
             .contact-submit-block {
               padding-top: 30px;
@@ -93,6 +94,7 @@
                 padding: 12px 38px 12px 38px;
                 border-radius: 5px;
                 color: $white;
+                cursor: pointer;
               }
             }
           }
