@@ -7,8 +7,17 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    @media (max-width: $media-md) {
+      padding-top: 80px;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
     .zifi-img {
       width: 250px;
+      @media (max-width: $media-md) {
+        width: 180px;
+        padding-bottom: 30px;
+      }
     }
     .left-zifilink {
       .zifileft-content {
@@ -17,6 +26,11 @@
         color: $black;
         font-weight: $regular;
         padding-bottom: 67px;
+        @media (max-width: $media-md) {
+          font-size: 16px;
+          line-height: 26px;
+          padding-bottom: 30px;
+        }
       }
       .zifilink-link {
         background-color: $goldenbrown;
@@ -50,11 +64,20 @@
         line-height: 40px;
         font-weight: $light;
         color: $black;
+        @media (max-width: $media-md) {
+          font-size: 20px;
+          line-height: 30px;
+          width: 100%;
+          padding-top: 30px;
+        }
       }
     }
     .productivity-block {
       padding-top: 70px;
       padding-bottom: 232px;
+      @media (max-width: $media-md) {
+        padding-top: 35px;
+      }
       .productivity-flex {
         display: flex;
         .productivity-group {
@@ -64,12 +87,20 @@
             line-height: 70px;
             padding-bottom: 10px;
             font-weight: $bold;
+            @media (max-width: $media-md) {
+              font-size: 26px;
+              line-height: 26px;
+            }
           }
           .production-heading {
             color: #42475f;
             font-size: 30px;
             line-height: 40px;
             font-weight: $bold;
+            @media (max-width: $media-md) {
+              font-size: 12px;
+              line-height: 12px;
+            }
           }
           &.key {
             width: 205px;
@@ -81,6 +112,9 @@
           background-color: $line;
           transform: rotate(20deg);
           margin: 0 50px;
+          @media (max-width: $media-md) {
+            height: 52px;
+          }
         }
       }
     }

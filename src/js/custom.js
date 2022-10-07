@@ -9,6 +9,13 @@ $("input").focus(function () {
   $(this).parents(".form-group").addClass("focused");
 });
 
+const dropToogle = document.querySelector(".navlist-dropdown");
+const dropContent = document.querySelector(".dropdown-content");
+
+dropToogle.addEventListener("click", () => {
+  dropContent.classList.toggle("is-open");
+});
+
 $("input").blur(function () {
   var inputValue = $(this).val();
   if (inputValue == "") {
