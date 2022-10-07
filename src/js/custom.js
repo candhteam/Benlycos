@@ -19,10 +19,19 @@ $("input").blur(function () {
   }
 });
 
-$(".slider-holder").slick({
-  dots: false,
-  infinite: true,
-  speed: 300,
-  slidesToShow: 1,
-  variableWidth: true,
-});
+// $(".slider-holder").slick({
+//   dots: false,
+//   infinite: true,
+//   speed: 300,
+//   slidesToShow: 1,
+//   variableWidth: true,
+//   responsive: [
+//     {
+//       breakpoint: 1024,
+//       settings: "unslick",
+//     },
+//     // You can unslick at a given breakpoint now by adding:
+//     // settings: "unslick"
+//     // instead of a settings object
+//   ],
+// });
