@@ -1,8 +1,13 @@
-const navToogle = document.querySelector(".navmenu");
+const navToogle = document.querySelector(".nav-toggle");
 const primaryNav = document.querySelector(".navigation");
+const mobNav = document.querySelector(".span");
 
 navToogle.addEventListener("click", () => {
   primaryNav.classList.toggle("opened");
+});
+
+navToogle.addEventListener("click", () => {
+  mobNav.classList.toggle("active");
 });
 
 $("input").focus(function () {

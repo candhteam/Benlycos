@@ -53,17 +53,55 @@
       }
 
       .navbar-menu {
-        display: block;
-        .navmenu {
+        display: block !important;
+        .nav-toggle {
           width: 30px;
           height: 15px;
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          .navline {
-            width: 100%;
+          span {
+            cursor: pointer;
+            border-radius: 1px;
             height: 2px;
-            background-color: $primary;
+            width: 30px;
+            background: $primary;
+            position: absolute;
+            display: block;
+
+            &::after {
+              cursor: pointer;
+              border-radius: 1px;
+              height: 2px;
+              width: 30px;
+              background: $primary;
+              position: absolute;
+              display: block;
+              content: "";
+              transition: all 300ms ease-in-out;
+              bottom: -7px;
+            }
+
+            &::before {
+              cursor: pointer;
+              border-radius: 1px;
+              height: 2px;
+              width: 30px;
+              background: $primary;
+              position: absolute;
+              display: block;
+              content: "";
+              transition: all 300ms ease-in-out;
+              top: -7px;
+            }
+            &.active {
+              width: 0%;
+              &::after {
+                top: 0;
+                transform: rotate(-45deg);
+              }
+              &::before {
+                top: 0;
+                transform: rotate(45deg);
+              }
+            }
           }
         }
       }
@@ -79,9 +117,6 @@
         top: 66px;
         background-color: $white;
       }
-    }
-    .requestdemo-block {
-      display: none;
     }
   }
 }

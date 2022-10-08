@@ -45,7 +45,7 @@
             padding-bottom: 45px;
           }
           img {
-            max-width: 226px;
+            max-width: 380px;
             @media (max-width: $media-md) {
               max-width: 200px;
             }
@@ -53,13 +53,13 @@
         }
         .bloom-heading-block {
           h2 {
-            max-width: 867px;
             margin: 0px;
             padding: 0;
             color: $lightblue;
             font-size: 65px;
             font-weight: $regular;
             line-height: 75px;
+            padding-bottom: 55px;
             @media (max-width: $media-xs) {
               font-size: 35px;
               line-height: 45px;
