@@ -47,3 +47,13 @@ $(".slider-holder").slick({
     // instead of a settings object
   ],
 });
+
+//banner video
+document.querySelectorAll(".play").forEach((vid) => {
+  vid.onclick = () => {
+    document.querySelector(".popup-video").style.display = "block";
+  };
+});
+document.querySelector(".popup-video .close-btn").onclick = () => {
+  document.querySelector(".popup-video").style.display = "none";
+};
