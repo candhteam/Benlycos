@@ -54,6 +54,12 @@ document.querySelectorAll(".play-btn").forEach((vid) => {
     document.querySelector(".popup-video").style.display = "block";
   };
 });
-document.querySelector(".popup-video .close-btn").onclick = () => {
-  document.querySelector(".popup-video").style.display = "none";
-};
+// document.querySelector(".popup-video .close-btn").onclick = () => {
+//   document.querySelector(".popup-video").style.display = "none";
+// };
+$(function () {
+  $(".close-btn").click(function () {
+    $("iframe").attr("src", $("iframe").attr("src"));
+    $(".popup-video").css("display", "none");
+  });
+});
