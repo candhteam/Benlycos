@@ -49,7 +49,7 @@ $(".slider-holder").slick({
 });
 
 //banner video
-document.querySelectorAll(".play").forEach((vid) => {
+document.querySelectorAll(".play-btn").forEach((vid) => {
   vid.onclick = () => {
     document.querySelector(".popup-video").style.display = "block";
   };
