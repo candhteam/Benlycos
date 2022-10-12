@@ -87,11 +87,11 @@
               margin: 0;
             }
             .the-team__discription {
-              display: grid;
-              grid-template-columns: repeat(1, 1fr);
-              gap: 79px;
+              display: flex;
+              flex-direction: column;
+              row-gap: 79px;
               padding-top: 25px;
-              padding-right: 140px;
+              padding-right: 30px;
               @media (max-width: $media-md){
                 padding-right: 40px;
               }
@@ -105,6 +105,7 @@
                 font-weight: $font-1;
                 margin: 0;
                 font-style: italic;
+                max-width: 549px;
                 @media (max-width: $media-sm){
                   font-size: 22px;
                 }
@@ -119,7 +120,7 @@
           .the-team__image--flex {
             display: flex;
             padding-top: 88px;
-            gap: 82px;
+            gap: 42px;
             @media (max-width: $media-md){
               gap: 50px;
             }
@@ -139,9 +140,14 @@
             .image__profile-card {
               // width: 288px;
               // height: 378px;
+              .image__outer--size{
               img {
-                max-width: 220px;
+                max-width: 180px;
+                @media (max-width: $media-lg){
+                  max-width: 180px;
               }
+            }
+          }
               .name__profile {
                 padding-top: 21px;
                 p {
@@ -169,6 +175,11 @@
         }
       }
     }
+
+
+
+
+    
     .pading-top {
       padding-top: 262px;
       @media (max-width: $media-md){

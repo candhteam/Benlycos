@@ -7,9 +7,6 @@
   }
   .container {
     .grid {
-      display: grid;
-      grid-template-columns: 1.5fr 2fr;
-      width: 100%;
       @media (max-width: $media-md) {
         display: block;
         width: auto;
@@ -60,7 +57,7 @@
           margin: 0;
           font-style: italic;
           line-height: 40px;
-          width: 895px;
+          // width: 895px;
           @media (max-width: $media-md) {
             width: 100%;
             font-size: 20px;
