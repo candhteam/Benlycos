@@ -89,6 +89,12 @@
           font-weight: $regular;
           margin: 0;
           line-height: 30px;
+          @media (max-width: $media-xlg) {
+            max-width: 380px;
+            width: 100%;
+            font-size: 18px;
+            line-height: 25px;
+          }
           @media (max-width: $media-md) {
             width: 100%;
             font-size: 16px;
@@ -139,7 +145,15 @@
             grid-template-columns: 100px 40px 210px 40px 100px 40px 100px;
             align-items: center;
             justify-items: center;
-            gap: 70px;
+            gap: 60px;
+            @media (max-width: $media-xlg){
+              grid-template-columns: 60px 1px 144px 1px 90px 1px 100px;
+              gap: 50px;
+            }
+            @media (max-width: $media-lg) {
+              grid-template-columns: 40px 15px 100px 15px 40px 15px 40px;
+              gap: 50px;
+            }
             @media (max-width: $media-md) {
               grid-template-columns: 40px 15px 100px 15px 40px 15px 40px;
               gap: 20px;
@@ -149,6 +163,14 @@
               line-height: 70px;
               color: $golden;
               font-weight: $bold;
+              @media (max-width: $media-xlg) {
+                font-size: 50px;
+                line-height: 60px;
+              }
+              @media (max-width: $media-lg) {
+                font-size: 50px;
+                line-height: 60px;
+              }
               @media (max-width: $media-md) {
                 font-size: 26px;
                 line-height: 26px;
@@ -159,6 +181,15 @@
               line-height: 40px;
               color: $black;
               font-weight: $bold;
+              height: 73px;
+              @media (max-width: $media-xlg) {
+                font-size: 20px;
+                line-height: 30px;
+              }
+              @media (max-width: $media-lg) {
+                font-size: 20px;
+                line-height: 30px;
+              }
               @media (max-width: $media-md) {
                 font-size: 12px;
                 line-height: 12px;
