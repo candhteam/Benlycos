@@ -20,7 +20,7 @@
                    font-weight: $bold;
                    font-family: $font-1;
                    line-height: 40px;
-                   @media (max-width: $media-sm){
+                   @media (max-width: $media-xlg){
                     font-size: 28px;
                   }
                   @media (max-width: $media-xs){
@@ -35,11 +35,11 @@
                    font-family: $font-1;
                    line-height: 28px;
                    padding-bottom: 8px;
-                   @media (max-width: $media-sm){
+                   @media (max-width: $media-xlg){
                     font-size: 18px;
                     padding-top: 30px;
                   }
-                  @media (max-width: $media-sm){
+                  @media (max-width: $media-xs){
                     font-size: 16px;
                     padding-top: 23px;
                   }

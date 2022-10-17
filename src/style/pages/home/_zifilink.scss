@@ -1,209 +1,209 @@
-.zifilink-section {
-  padding-top: 126px;
-  padding-bottom: 185px;
-  @media (max-width: $media-md) {
-    padding-top: 35px;
-    padding-bottom: 60px;
-  }
-  .container {
-    .grid {
-      @media (max-width: $media-md) {
-        display: block;
-        width: auto;
-      }
-      .product-heading-block {
-        padding-bottom: 20px;
-        border-bottom: 1px solid#a7b0db;
+  .zifilink-section {
+    padding-top: 126px;
+    padding-bottom: 185px;
+    @media (max-width: $media-md) {
+      padding-top: 35px;
+      padding-bottom: 60px;
+    }
+    .container {
+      .grid {
         @media (max-width: $media-md) {
+          display: block;
           width: auto;
-          padding-bottom: 7px;
         }
-        h3 {
-          margin: 0;
-          padding: 0;
-          color: $headingblue;
-          font-size: 25px;
-          font-weight: $regular;
-          letter-spacing: 0.63px;
-          // font-family: $font-1;
-          line-height: 35px;
+        .product-heading-block {
+          padding-bottom: 20px;
+          border-bottom: 1px solid#a7b0db;
           @media (max-width: $media-md) {
-            font-size: 16px;
-            line-height: 26px;
+            width: auto;
+            padding-bottom: 7px;
+          }
+          h3 {
+            margin: 0;
+            padding: 0;
+            color: $headingblue;
+            font-size: 25px;
+            font-weight: $regular;
+            letter-spacing: 0.63px;
+            // font-family: $font-1;
+            line-height: 35px;
+            @media (max-width: $media-md) {
+              font-size: 16px;
+              line-height: 26px;
+            }
           }
         }
       }
-    }
-    .grid {
-      .zifilink-logo-block {
-        img {
-          max-width: 250px;
-          @media (max-width: $media-md) {
-            width: 140px;
-          }
-        }
-      }
-      .zifilink-content-block {
-        @media (max-width: $media-md) {
-          padding-top: 50px;
-        }
-        @media (max-width: $media-xs) {
-          padding-top: 30px;
-        }
-        p {
-          color: $black;
-          font-size: 30px;
-          font-weight: $light;
-          margin: 0;
-          font-style: italic;
-          line-height: 40px;
-          // width: 895px;
-          @media (max-width: $media-md) {
-            width: 100%;
-            font-size: 20px;
-            line-height: 30px;
-          }
-        }
-      }
-    }
-    .topspace {
-      padding-top: 80px;
-      @media (max-width: $media-md) {
-        padding-top: 40px;
-      }
-    }
-    // third grid block starts
-
-    .grid {
-      .content-button-block {
-        display: flex;
-        flex-direction: column;
-        gap: 67px;
-        @media (max-width: $media-md) {
-          gap: 26px;
-        }
-        p {
-          max-width: 407px;
-          color: $black;
-          font-size: 20px;
-          font-weight: $regular;
-          margin: 0;
-          line-height: 30px;
-          @media (max-width: $media-xlg) {
-            max-width: 380px;
-            width: 100%;
-            font-size: 18px;
-            line-height: 25px;
-          }
-          @media (max-width: $media-md) {
-            width: 100%;
-            font-size: 16px;
-            line-height: 26px;
-          }
-        }
-        .zifi-button {
-          width: 220px;
-          padding: 9px 24px 9px 24px;
-          background-color: $goldenbrown;
-          border-radius: 20px;
-          color: $white;
-        }
-      }
-      .image-logo-block {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        align-items: center;
-        gap: 120px;
-        @media (max-width: $media-md) {
-          padding-top: 60px;
-          grid-template-columns: repeat(3, 1fr);
-          gap: 60px;
-        }
-        .img1-logo {
+      .grid {
+        .zifilink-logo-block {
           img {
-            width: 180px;
+            max-width: 250px;
+            @media (max-width: $media-md) {
+              width: 140px;
+            }
           }
         }
-      }
-    }
-
-    .top-space3 {
-      padding-top: 150px;
-      @media (max-width: $media-xs) {
-        padding-top: 60px;
-      }
-    }
-    .grid {
-      &.top-space2 {
-        .rating-block {
-          padding-top: 70px;
+        .zifilink-content-block {
           @media (max-width: $media-md) {
+            padding-top: 50px;
+          }
+          @media (max-width: $media-xs) {
             padding-top: 30px;
           }
-          .rating-grid {
-            display: grid;
-            grid-template-columns: 100px 40px 210px 40px 100px 40px 100px;
-            align-items: center;
-            justify-items: center;
-            gap: 60px;
-            @media (max-width: $media-xlg){
-              grid-template-columns: 60px 1px 144px 1px 90px 1px 100px;
-              gap: 50px;
-            }
-            @media (max-width: $media-lg) {
-              grid-template-columns: 40px 15px 100px 15px 40px 15px 40px;
-              gap: 50px;
-            }
-            @media (max-width: $media-md) {
-              grid-template-columns: 40px 15px 100px 15px 40px 15px 40px;
-              gap: 20px;
-            }
-            .number {
-              font-size: 70px;
-              line-height: 70px;
-              color: $golden;
-              font-weight: $bold;
-              @media (max-width: $media-xlg) {
-                font-size: 50px;
-                line-height: 60px;
-              }
-              @media (max-width: $media-lg) {
-                font-size: 50px;
-                line-height: 60px;
-              }
-              @media (max-width: $media-md) {
-                font-size: 26px;
-                line-height: 26px;
-              }
-            }
-            .rating-content {
-              font-size: 30px;
-              line-height: 40px;
-              color: $black;
-              font-weight: $bold;
-              height: 73px;
-              @media (max-width: $media-xlg) {
-                font-size: 20px;
-                line-height: 30px;
-              }
-              @media (max-width: $media-lg) {
-                font-size: 20px;
-                line-height: 30px;
-              }
-              @media (max-width: $media-md) {
-                font-size: 12px;
-                line-height: 12px;
-              }
+          p {
+            color: $black;
+            font-size: 30px;
+            font-weight: $light;
+            margin: 0;
+            font-style: italic;
+            line-height: 40px;
+            // width: 895px;
+            @media (max-width: $media-md),(max-width:$media-xlg) {
+              width: 100%;
+              font-size: 20px;
+              line-height: 30px;
             }
           }
-          .line {
-            background-color: #b5b5b5;
-            width: 1px;
-            height: 100%;
-            transform: rotate(20deg);
+        }
+      }
+      .topspace {
+        padding-top: 80px;
+        @media (max-width: $media-md) {
+          padding-top: 40px;
+        }
+      }
+      // third grid block starts
+
+      .grid {
+        .content-button-block {
+          display: flex;
+          flex-direction: column;
+          gap: 67px;
+          @media (max-width: $media-md) {
+            gap: 26px;
+          }
+          p {
+            max-width: 407px;
+            color: $black;
+            font-size: 20px;
+            font-weight: $regular;
+            margin: 0;
+            line-height: 30px;
+            @media (max-width: $media-xlg) {
+              max-width: 380px;
+              width: 100%;
+              font-size: 18px;
+              line-height: 25px;
+            }
+            @media (max-width: $media-md) {
+              width: 100%;
+              font-size: 16px;
+              line-height: 26px;
+            }
+          }
+          .zifi-button {
+            width: 220px;
+            padding: 9px 24px 9px 24px;
+            background-color: $goldenbrown;
+            border-radius: 20px;
+            color: $white;
+          }
+        }
+        .image-logo-block {
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          align-items: center;
+          gap: 120px;
+          @media (max-width: $media-md) {
+            padding-top: 60px;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 60px;
+          }
+          .img1-logo {
+            img {
+              width: 180px;
+            }
+          }
+        }
+      }
+
+      .top-space3 {
+        padding-top: 150px;
+        @media (max-width: $media-xs) {
+          padding-top: 60px;
+        }
+      }
+      .grid {
+        &.top-space2 {
+          .rating-block {
+            padding-top: 70px;
+            @media (max-width: $media-md) {
+              padding-top: 30px;
+            }
+            .rating-grid {
+              display: grid;
+              grid-template-columns: 100px 40px 210px 40px 100px 40px 100px;
+              align-items: center;
+              justify-items: center;
+              gap: 60px;
+              @media (max-width: $media-xlg){
+                grid-template-columns: 60px 1px 144px 1px 90px 1px 100px;
+                gap: 50px;
+              }
+              @media (max-width: $media-lg) {
+                grid-template-columns: 40px 15px 100px 15px 40px 15px 40px;
+                gap: 50px;
+              }
+              @media (max-width: $media-md) {
+                grid-template-columns: 40px 15px 100px 15px 40px 15px 40px;
+                gap: 20px;
+              }
+              .number {
+                font-size: 70px;
+                line-height: 70px;
+                color: $golden;
+                font-weight: $bold;
+                @media (max-width: $media-xlg) {
+                  font-size: 50px;
+                  line-height: 60px;
+                }
+                @media (max-width: $media-lg) {
+                  font-size: 50px;
+                  line-height: 60px;
+                }
+                @media (max-width: $media-md) {
+                  font-size: 26px;
+                  line-height: 26px;
+                }
+              }
+              .rating-content {
+                font-size: 30px;
+                line-height: 40px;
+                color: $black;
+                font-weight: $bold;
+                height: 73px;
+                @media (max-width: $media-xlg) {
+                  font-size: 20px;
+                  line-height: 30px;
+                }
+                @media (max-width: $media-lg) {
+                  font-size: 20px;
+                  line-height: 30px;
+                }
+                @media (max-width: $media-md) {
+                  font-size: 12px;
+                  line-height: 12px;
+                }
+              }
+            }
+            .line {
+              background-color: #b5b5b5;
+              width: 1px;
+              height: 100%;
+              transform: rotate(20deg);
+            }
           }
         }
       }
     }
   }
-}

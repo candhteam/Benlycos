@@ -7,7 +7,7 @@
     padding-top: 0px;
     padding-bottom: 160px;
   }
-  @media (max-width: $media-md){
+  @media (max-width: $media-sm){
     padding-top: 0px;
     padding-bottom: 120px;
   }
@@ -21,6 +21,13 @@
               font-family: $font-1;
               font-weight: $bold;
               margin: 0;
+              @media (max-width:$media-xlg){
+                font-size: 40px;
+                line-height: 50px;
+              }
+              @media (max-width:$media-sm){
+                padding-top: 20px;
+              }
             }
             .mission-vission {
               font-size: 30px;
@@ -30,8 +37,9 @@
               color: #091b56;
               max-width: 612px;
               padding-top: 25px;
-              @media (max-width: $media-sm){
+              @media (max-width: $media-xlg){
                 font-size: 22px;
+                padding-right: 30px;
               }
               @media (max-width: $media-xs){
                 font-size: 16px;
@@ -46,6 +54,13 @@
               font-family: $font-1;
               font-weight: $bold;
               margin: 0;
+              @media (max-width:$media-xlg){
+                font-size: 40px;
+                line-height: 50px;
+              }
+              @media (max-width:$media-sm){
+                padding-top: 20px;
+              }
             }
             .mission-vission {
               font-size: 30px;
@@ -55,8 +70,9 @@
               color: #091b56;
               max-width: 612px;
               padding-top: 25px;
-              @media (max-width: $media-sm){
+              @media (max-width: $media-xlg){
                 font-size: 22px;
+               max-width: 560px;
               }
               @media (max-width: $media-xs){
                 font-size: 16px;
@@ -140,6 +156,11 @@
             .image__profile-card {
               // width: 288px;
               // height: 378px;
+              @media (max-width:$media-sm){
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+              }
               .image__outer--size{
               img {
                 max-width: 180px;
@@ -150,6 +171,9 @@
           }
               .name__profile {
                 padding-top: 21px;
+                @media (max-width:$media-sm){
+                  padding-left: 25px;
+                }
                 p {
                   font-size: 22px;
                   line-height: 30px;
