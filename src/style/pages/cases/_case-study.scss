@@ -255,12 +255,14 @@
             padding-bottom: 159px;
           }
           .media-height {
-            height: 381px;
+            min-height: 381px;
             padding-bottom: 129px;
+            display: flex;
           }
           .rural-height {
-            height: 483px;
+            min-height: 500px;
             padding-bottom: 71px;
+            display: flex;
           }
         }
       }

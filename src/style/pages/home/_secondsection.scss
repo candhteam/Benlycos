@@ -9,11 +9,18 @@
   }
   .s-contentsection {
     max-width: 650px;
+    @media (max-width: $media-xlg) {
+   max-width: 450px;
+    }
     h2 {
       color: $white;
       font-weight: $regular;
       padding-bottom: 44px;
       margin: 0;
+      @media (max-width: $media-xlg) {
+        font-size: 50px;
+        line-height: 60px;
+      }
       @media (max-width: $media-md) {
         padding-bottom: 28px;
       }
