@@ -3,12 +3,26 @@
     padding-bottom: 185px;
     @media (max-width:$media-xlg){
       padding-top: 75px;
+      padding-bottom: 120px;
     }
     @media (max-width: $media-md) {
       padding-top: 35px;
       padding-bottom: 60px;
     }
     .container {
+     .inner-container{
+      max-width: 1600px;
+     margin: auto; 
+     @media (max-width:$media-xlg){
+      max-width: 1140px;
+      margin: auto;
+      padding-left: 60px;
+      padding-right: 60px;
+     }
+     @media (max-width:$media-md){
+      padding-left: 0;
+      padding-right: 0;
+     }
       .grid {
         @media (max-width: $media-md) {
           display: block;
@@ -42,19 +56,29 @@
       }
       .grid {
         .zifilink-logo-block {
+          display: flex;
+          align-items: center;
           img {
             max-width: 250px;
+            @media (max-width:$media-xlg){
+              width: 150px;
+            }
             @media (max-width: $media-md) {
               width: 140px;
             }
           }
         }
         .zifilink-content-block {
+          @media (max-width:$media-xlg){
+            width: 536px;
+          }
           @media (max-width: $media-md) {
             padding-top: 50px;
+            width: 100%;
           }
           @media (max-width: $media-xs) {
             padding-top: 30px;
+            width: 100%;
           }
           p {
             color: $black;
@@ -66,8 +90,9 @@
             // width: 895px;
             @media (max-width: $media-md),(max-width:$media-xlg) {
               width: 100%;
-              font-size: 20px;
-              line-height: 30px;
+              font-size: 17px;
+              line-height: 24px;
+              font-weight: normal;
             }
           }
         }
@@ -88,6 +113,9 @@
           display: flex;
           flex-direction: column;
           gap: 67px;
+          @media (max-width:$media-xlg){
+            gap:46px
+          }
           @media (max-width: $media-md) {
             gap: 26px;
           }
@@ -99,10 +127,10 @@
             margin: 0;
             line-height: 30px;
             @media (max-width: $media-xlg) {
-              max-width: 380px;
+              max-width: 305px;
               width: 100%;
-              font-size: 18px;
-              line-height: 25px;
+              font-size: 14px;
+              line-height: 20px;
             }
             @media (max-width: $media-md) {
               width: 100%;
@@ -116,13 +144,21 @@
             background-color: $goldenbrown;
             border-radius: 20px;
             color: $white;
+            @media (max-width:$media-xlg){
+              width: 140px;
+              padding: 7px 15px 7px 15px;
+              font-size: 12px;
+            }
           }
         }
         .image-logo-block {
           display: grid;
           grid-template-columns: repeat(4, 1fr);
-          align-items: center;
+          // align-items: center;
           gap: 120px;
+          @media (max-width:$media-xlg){
+            gap: 84px;
+          }
           @media (max-width: $media-md) {
             padding-top: 60px;
             grid-template-columns: repeat(3, 1fr);
@@ -138,6 +174,9 @@
 
       .top-space3 {
         padding-top: 150px;
+        @media (max-width:$media-xlg){
+          padding-top: 130px;
+        }
         @media (max-width: $media-xs) {
           padding-top: 60px;
         }
@@ -146,6 +185,9 @@
         &.top-space2 {
           .rating-block {
             padding-top: 70px;
+            @media (max-width:$media-xlg){
+              padding-top: 55px;
+            }
             @media (max-width: $media-md) {
               padding-top: 30px;
             }
@@ -157,7 +199,7 @@
               gap: 60px;
               @media (max-width: $media-xlg){
                 grid-template-columns: 60px 1px 144px 1px 90px 1px 100px;
-                gap: 50px;
+                gap: 30px;
               }
               @media (max-width: $media-lg) {
                 grid-template-columns: 40px 15px 100px 15px 40px 15px 40px;
@@ -173,13 +215,10 @@
                 color: $golden;
                 font-weight: $bold;
                 @media (max-width: $media-xlg) {
-                  font-size: 50px;
-                  line-height: 60px;
+                  font-size: 40px;
+                  line-height: 49px;
                 }
-                @media (max-width: $media-lg) {
-                  font-size: 50px;
-                  line-height: 60px;
-                }
+        
                 @media (max-width: $media-md) {
                   font-size: 26px;
                   line-height: 26px;
@@ -192,12 +231,12 @@
                 font-weight: $bold;
                 height: 73px;
                 @media (max-width: $media-xlg) {
-                  font-size: 20px;
-                  line-height: 30px;
+                  font-size: 18px;
+                  line-height: 21px;
                 }
                 @media (max-width: $media-lg) {
-                  font-size: 20px;
-                  line-height: 30px;
+                  font-size: 18px;
+                  line-height: 21px;
                 }
                 @media (max-width: $media-md) {
                   font-size: 12px;
@@ -214,5 +253,6 @@
           }
         }
       }
+    }
     }
   }
