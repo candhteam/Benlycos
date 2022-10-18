@@ -3,8 +3,8 @@
   padding-top: 182px;
   padding-bottom: 100px;
   @media (max-width: $media-xlg) {
-    padding-top: 160px;
-    padding-bottom: 30px;
+    padding-top: 118px;
+    padding-bottom: 60px;
   }
   @media (max-width: $media-md) {
     padding-top: 120px;
@@ -24,8 +24,9 @@
           padding-bottom: 125px;
           margin: 0;
           @media (max-width: $media-xlg) {
-            font-size: 71px;
-            line-height: 80px;
+            font-size: 60px;
+            line-height: 70px;
+            padding-bottom: 70px;
           }
           @media (max-width: $media-md) {
             font-size: 56px;
@@ -137,6 +138,13 @@
   color: $primary;
   max-width: 853px;
   padding-top: 100px;
+  font-weight: $regular;
+  @media (max-width:$media-xlg){
+    font-size: 16px;
+    line-height: 23px;
+    max-width: 550px;
+    padding-top: 65px;
+  }
   @media (max-width: $media-md) {
     font-size: 16px;
     line-height: 26px;

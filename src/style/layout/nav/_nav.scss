@@ -8,13 +8,20 @@
     padding-bottom: 37px;
     background-color: $white;
     z-index: 999;
+    @media (max-width:$media-xlg){
+      padding-top: 5px;
+    }
     .container {
       .grid {
         align-items: center;
 
         .logo {
+          
           &.logo-img {
             width: 170px;
+            @media (max-width:$media-xlg){
+              width: 121px;
+            }
           }
         }
         .navigation {
@@ -27,12 +34,15 @@
                 display: flex;
                 // justify-content: space-between;
                 width: 505px;
-                gap: 65px;
+                gap: 61px;
+                @media (max-width:$media-xlg){
+                  gap: 40px;
+                }
               }
               &.nav-link {
                 font-size: 16px;
                 line-height: 30px;
-                font-weight: $light;
+                font-weight: $regular;
                 color: $navblue;
                 position: relative;
                 cursor: pointer;
@@ -50,6 +60,10 @@
                 }
                 &:hover::before {
                   width: 100%;
+                }
+                @media (max-width:$media-xlg){
+                  font-size: 10px;
+                  line-height: 20px;
                 }
               }
               &.navlist-dropdown {
@@ -96,6 +110,14 @@
             transition: 0.5s ease-in-out;
             &:hover {
               opacity: 0.75;
+            }
+            svg{
+              @media (max-width:$media-xlg){
+                max-width: 87px;
+              }
+            }
+            @media (max-width:$media-xlg){
+              padding: 5px 10px;
             }
           }
         }

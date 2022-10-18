@@ -22,8 +22,9 @@
       padding-bottom: 44px;
       margin: 0;
       @media (max-width: $media-xlg) {
-        font-size: 50px;
-        line-height: 60px;
+        font-size: 47px;
+        line-height: 55px;
+        padding-bottom: 25px;
       }
       @media (max-width: $media-md) {
         padding-bottom: 28px;
@@ -32,12 +33,19 @@
     .s-content {
       color: $white;
       font-weight: $light;
+      @media (max-width:$media-xlg){
+        font-size: 14px;
+        line-height: 20px;
+      }
     }
   }
 
   .slider-wrapper {
     padding-top: 141px;
     margin-left: 110px;
+    @media (max-width:$media-xlg){
+      padding-top: 90px;
+    }
     @media (max-width: $media-md) {
       padding-top: 61px;
       margin-left: 30px;
@@ -50,6 +58,11 @@
       color: $lightgrey;
       font-weight: $regular;
       padding-bottom: 30px;
+      @media (max-width:$media-xlg){
+        font-size: 12px;
+        line-height: 20px;
+        padding-bottom: 15px;
+      }
       @media (max-width: $media-sm) {
         font-size: 16px;
         line-height: 26px;
@@ -70,7 +83,6 @@
         @media (max-width: $media-md) {
           margin-left: 0;
           display: block;
-          margin-left: 0;
         }
         .slider-block {
           background-color: $secondaryblue;
@@ -83,17 +95,17 @@
           margin-right: 30px;
           @media (max-width: $media-xlg) {
             width:380px;
-            height: 450px;
+            height: 350px;
             padding-left: 34px;
-            padding-top: 46px;
+            padding-top: 30px;
             margin-bottom: 20px;
             padding-bottom: 60px;
           }
           @media (max-width: $media-sm) {
             width: 100%;
-            height: 515px;
-            padding-left: 44px;
-            padding-top: 56px;
+            height: 450px;
+            padding-left: 34px;
+            padding-top: 46px;
             margin-bottom: 20px;
           }
           .slider-heading {
@@ -104,12 +116,14 @@
             padding-top: 15px;
             padding-bottom: 2px;
             @media (max-width:$media-xlg){
-              font-size: 30px;
-              line-height: 40px;
-            }
+              font-size: 23px;
+              line-height: 26px;
+              padding-bottom: 0;
+            padding-top: 1px;        
+              }
             @media (max-width: $media-md) {
-              font-size: 25px;
-              line-height: 35px;
+              font-size: 23px;
+              line-height: 26px;
             }
           }
           .sub-heading {
@@ -120,14 +134,14 @@
             font-weight: $regular;
             padding-bottom: 30px;
             @media (max-width:$media-xlg){
-              font-size: 19px;
-              line-height: 29px;
-              padding-bottom: 20px;  
+              font-size: 14px;
+              line-height: 22px;
+              padding-bottom: 15px;  
             }
             @media (max-width: $media-md) {
-              font-size: 16px;
-              line-height: 26px;
-              padding-bottom: 20px;
+              font-size: 14px;
+              line-height: 22px;
+              padding-bottom: 15px;
             }
           }
           .slider-list {
@@ -138,8 +152,8 @@
               line-height: 32px;
               font-weight: $light;
               @media (max-width: $media-xlg) {
-                font-size: 16px;
-                line-height: 26px;
+                font-size: 13px;
+                line-height: 23px;
               }
               @media (max-width: $media-md) {
                 font-size: 14px;
@@ -147,6 +161,14 @@
               }
             }
           }
+          @media (max-width:$media-xlg){
+            .lottie-block{
+              lord-icon{
+    width: 100px;
+    height: 100px;
+              }
+             } 
+          }      
         }
         .slick-prev {
           display: none !important;
@@ -159,6 +181,9 @@
   }
   .major-problems {
     padding-top: 168px;
+    @media (max-width:$media-xlg){
+      padding-top: 100px;
+    }
     @media (max-width: $media-md) {
       padding-top: 60px;
       padding-left: 30px;
@@ -166,6 +191,9 @@
     }
     .problems-block {
       width: 650px;
+      @media (max-width:$media-xlg){
+        width: 427px;
+      }
       @media (max-width: $media-md) {
         width: 100%;
       }
@@ -180,9 +208,9 @@
         color: $white;
         font-weight: $light;
         padding-bottom: 40px;
-        @media (max-width: $media-md) {
-          font-size: 20px;
-          line-height: 30px;
+        @media (max-width: $media-xlg) {
+          font-size: 16px;
+          line-height: 24px;
           padding-bottom: 23px;
         }
       }
@@ -200,19 +228,22 @@
   }
   .graph-block {
     padding-bottom: 95px;
-    @media (max-width: $media-sm) {
+    @media (max-width: $media-xlg) {
       padding-bottom: 58px;
     }
     .graph-wrapper {
       padding-top: 95px;
-      @media (max-width: $media-md) {
-        padding-top: 50px;
+      @media (max-width: $media-xlg) {
+        padding-top: 40px;
       }
       .graph-content {
         display: flex;
         align-items: center;
         padding-bottom: 62px;
         width: 100%;
+        @media (max-width:$media-xlg){
+          padding-bottom: 40px;
+        }
         @media (max-width: $media-sm) {
           padding-bottom: 35px;
         }
@@ -220,8 +251,8 @@
           .graph {
             width: 170px;
             position: relative;
-            @media (max-width: $media-md) {
-              width: 150px;
+            @media (max-width: $media-xlg) {
+              width: 100px;
             }
             @media (max-width: $media-sm) {
               width: 100px;
@@ -236,20 +267,17 @@
               font-size: 25px;
               line-height: 35px;
               font-weight: $bold;
-              @media (max-width: $media-md) {
-                font-size: 20px;
-                line-height: 20px;
-              }
-              @media (max-width: $media-sm) {
+              @media (max-width: $media-xlg) {
                 font-size: 15px;
-                line-height: 25px;
+                line-height: 22px;
               }
+           
             }
           }
         }
         .gblock-headings {
           padding-left: 42px;
-          @media (max-width: $media-sm) {
+          @media (max-width: $media-xlg) {
             padding-left: 22px;
           }
           .graph-heading {
@@ -257,9 +285,9 @@
             font-size: 30px;
             line-height: 45px;
             font-weight: $regular;
-            @media (max-width: $media-md) {
-              font-size: 17px;
-              line-height: 27px;
+            @media (max-width: $media-xlg) {
+              font-size: 18px;
+              line-height: 28px;
             }
           }
           .graph-subheading {
@@ -267,9 +295,9 @@
             font-size: 20px;
             line-height: 21px;
             font-weight: $regular;
-            @media (max-width: $media-md) {
-              font-size: 13px;
-              line-height: 23px;
+            @media (max-width: $media-xlg) {
+              font-size: 12px;
+              line-height: 21px;
             }
           }
         }
@@ -279,6 +307,9 @@
   .solution-block {
     .solution-contents {
       width: 650px;
+      @media (max-width:$media-xlg){
+        width: 431px;
+      }
       @media (max-width: $media-md) {
         width: 100%;
       }
@@ -287,8 +318,9 @@
         padding-bottom: 28px;
         font-weight: $regular;
         @media (max-width:$media-xlg){
-          font-size: 40px;
-          line-height: 50px;
+          font-size: 31px;
+          line-height: 38px;
+          padding-bottom: 20px;
         }
       }
       .s-content {
@@ -298,8 +330,9 @@
         font-weight: $light;
         padding-bottom: 40px;
         @media (max-width: $media-sm),(max-width:$media-xlg){
-          font-size: 20px;
-          line-height: 30px;
+          font-size: 16px;
+          line-height: 23px;
+          padding-bottom: 30px;
         }
       }
       .s-subcontent {
@@ -308,6 +341,11 @@
         line-height: 28px;
         font-weight: $light;
         padding-bottom: 35px;
+        @media (max-width:$media-xlg){
+          font-size: 13px;
+          line-height: 20px;
+          padding-bottom: 25px;
+        }
       }
       .know-more {
         text-decoration: underline;
@@ -315,6 +353,10 @@
         line-height: 28px;
         color: $white;
         font-weight: $bold;
+        @media (max-width:$media-xlg){
+          font-size: 14px;
+          line-height: 24px;
+        }
       }
     }
   }

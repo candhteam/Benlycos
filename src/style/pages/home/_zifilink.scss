@@ -1,6 +1,9 @@
   .zifilink-section {
     padding-top: 126px;
     padding-bottom: 185px;
+    @media (max-width:$media-xlg){
+      padding-top: 75px;
+    }
     @media (max-width: $media-md) {
       padding-top: 35px;
       padding-bottom: 60px;
@@ -14,6 +17,9 @@
         .product-heading-block {
           padding-bottom: 20px;
           border-bottom: 1px solid#a7b0db;
+          @media (max-width:$media-xlg){
+            padding-bottom: 10px;
+          }
           @media (max-width: $media-md) {
             width: auto;
             padding-bottom: 7px;
@@ -27,7 +33,7 @@
             letter-spacing: 0.63px;
             // font-family: $font-1;
             line-height: 35px;
-            @media (max-width: $media-md) {
+            @media (max-width: $media-xlg) {
               font-size: 16px;
               line-height: 26px;
             }
@@ -68,6 +74,9 @@
       }
       .topspace {
         padding-top: 80px;
+        @media (max-width:$media-xlg){
+          padding-top: 50px;
+        }
         @media (max-width: $media-md) {
           padding-top: 40px;
         }

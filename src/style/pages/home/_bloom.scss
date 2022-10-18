@@ -196,6 +196,11 @@
           font-size: 30px;
           font-weight: $bold;
           line-height: 40px;
+          @media (max-width: $media-xlg) {
+           font-size: 25px;
+           line-height: 35px;
+           max-width: 610px;
+          }
           @media (max-width: $media-sm) {
             font-size: 23px;
             line-height: 33px;
