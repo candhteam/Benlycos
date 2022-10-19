@@ -1,11 +1,17 @@
 .solution-section{
     padding-top: 58px;
+    @media (max-width:$media-xlg){
+      padding-top: 40px;
+    }
     .solution-wrapper{
         .grid{
             .solution_block{
                 background-color: $primary;
                 padding: 85px 80px 85px 80px ;
                 border-radius: 10px 0px 10px 0px;
+                @media (max-width:$media-xlg){
+                  padding: 55px 50px 55px 50px ; 
+                }
                 @media (max-width: $media-sm){
                     padding-top: 67px;
                     padding-left: 40px;
@@ -21,7 +27,8 @@
                    font-family: $font-1;
                    line-height: 40px;
                    @media (max-width: $media-xlg){
-                    font-size: 28px;
+                    font-size: 18px;
+                    line-height: 24px;
                   }
                   @media (max-width: $media-xs){
                     font-size: 25px;
@@ -36,8 +43,10 @@
                    line-height: 28px;
                    padding-bottom: 8px;
                    @media (max-width: $media-xlg){
-                    font-size: 18px;
-                    padding-top: 30px;
+                    font-size: 12px;
+                    padding-top: 15px;
+                    line-height: 23px;
+                    max-width: 530px;
                   }
                   @media (max-width: $media-xs){
                     font-size: 16px;

@@ -3,6 +3,9 @@
   height: auto;
   padding-top: 262px;
   padding-bottom: 200px;
+  @media (max-width:$media-xlg){
+    padding-top: 140px;
+  }
   @media (max-width: $media-md){
     padding-top: 0px;
     padding-bottom: 160px;
@@ -12,6 +15,13 @@
     padding-bottom: 120px;
   }
   .container {
+    .vission-container{
+      @media (max-width:$media-xlg){
+max-width: 1140px;
+margin: auto;
+padding-left: 30px;
+padding-right: 30px;
+      }
     .case-study__wrapper-row {
       .grid {
         .case-study__left-block {
@@ -22,8 +32,8 @@
               font-weight: $bold;
               margin: 0;
               @media (max-width:$media-xlg){
-                font-size: 40px;
-                line-height: 50px;
+                font-size: 25px;
+                line-height: 30px;
               }
               @media (max-width:$media-sm){
                 padding-top: 20px;
@@ -38,8 +48,10 @@
               max-width: 612px;
               padding-top: 25px;
               @media (max-width: $media-xlg){
-                font-size: 22px;
-                padding-right: 30px;
+                font-size: 17px;
+                line-height: 22px;
+                max-width: 375px;
+                padding-top: 15px;
               }
               @media (max-width: $media-xs){
                 font-size: 16px;
@@ -48,6 +60,7 @@
           }
         }
         .case-study__right-block {
+          margin-left: 60px;
           .mission-vission__header {
             h4 {
               color: #091b56;
@@ -55,8 +68,8 @@
               font-weight: $bold;
               margin: 0;
               @media (max-width:$media-xlg){
-                font-size: 40px;
-                line-height: 50px;
+                font-size: 25px;
+                line-height: 30px;
               }
               @media (max-width:$media-sm){
                 padding-top: 20px;
@@ -71,8 +84,10 @@
               max-width: 612px;
               padding-top: 25px;
               @media (max-width: $media-xlg){
-                font-size: 22px;
+                font-size: 17px;
+                line-height: 28px;
                max-width: 560px;
+               padding-top: 15px;
               }
               @media (max-width: $media-xs){
                 font-size: 16px;
@@ -101,6 +116,10 @@
               font-weight: $bold;
               color: $primary;
               margin: 0;
+              @media (max-width:$media-xlg){
+                font-size: 25px;
+                line-height: 30px;
+              }
             }
             .the-team__discription {
               display: flex;
@@ -122,8 +141,9 @@
                 margin: 0;
                 font-style: italic;
                 max-width: 549px;
-                @media (max-width: $media-sm){
-                  font-size: 22px;
+                @media (max-width: $media-xlg){
+                  font-size: 16px;
+                  line-height: 23px;
                 }
                 @media (max-width: $media-xs){
                   font-size: 16px;
@@ -133,17 +153,18 @@
           }
         }
         .the-team__right-block {
+          margin-left: 60px;
           .the-team__image--flex {
             display: flex;
             padding-top: 88px;
-            gap: 42px;
+            // gap: 42px;
             @media (max-width: $media-md){
-              gap: 50px;
+              // gap: 50px;
             }
             @media (max-width: $media-sm){
               display: grid;
               grid-template-columns: repeat(2,1fr);
-              gap: 30px;
+              // gap: 30px;
               padding-left: 30px;
             }
             @media (max-width: $media-xs){
@@ -164,10 +185,12 @@
               .image__outer--size{
               img {
                 max-width: 180px;
-                @media (max-width: $media-lg){
-                  max-width: 180px;
+                @media (max-width: $media-xlg){
+                  max-width: 125px;
               }
+             
             }
+           
           }
               .name__profile {
                 padding-top: 21px;
@@ -180,14 +203,23 @@
                   color: #091b56;
                   font-family: $font-1;
                   font-weight: $bold;
+                  @media (max-width:$media-xlg){
+                    font-size: 14px;
+                    line-height: 24px;
+                  }
                 }
                 ul {
+                  margin: 0;
                   li {
                     font-size: 18px;
                     line-height: 25px;
                     font-family: $font-1;
                     font-weight: $regular;
                     color: #091b56;
+                    @media (max-width:$media-xlg){
+                      font-size: 12px;
+                      line-height: 16px;
+                    }
                   }
                 }
               }
@@ -202,13 +234,19 @@
 
 
 
-
+    .padding-l{
+      padding-left: 60px;
+      }
     
     .pading-top {
       padding-top: 262px;
+      @media (max-width:$media-xlg){
+        padding-top: 150px;
+      }
       @media (max-width: $media-md){
         padding-top: 100px;
       }
     }
   }
+}
 }
