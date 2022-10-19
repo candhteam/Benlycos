@@ -3,11 +3,11 @@
   padding-top: 207px;
   height: auto;
   padding-bottom: 249px;
-  @media (max-width: $media-md) {
-    padding-top: 150px;
+  @media (max-width: $media-xlg) {
+    padding-top: 130px;
   }
   @media (max-width: $media-sm) {
-    padding-bottom: 150px;
+    padding-bottom: 120px;
   }
   @media (max-width: $media-xs) {
     padding-top: 96px;
@@ -20,8 +20,8 @@
           .case-study__main-header {
             width: 645px;
             padding-bottom: 49px;
-            @media (max-width: $media-xs) {
-              padding-bottom: 42px;
+            @media (max-width: $media-xlg) {
+              padding-bottom: 30px;
               width: 100%;
             }
             h2 {
@@ -31,9 +31,9 @@
               color: $primary;
               font-family: $font-1;
               font-weight: $regular;
-              @media (max-width: $media-sm) {
-                font-size: 55px;
-                line-height: 65px;
+              @media (max-width: $media-xlg) {
+                font-size: 40px;
+                line-height: 50px;
               }
               @media (max-width: $media-xs) {
                 font-size: 35px;
@@ -50,11 +50,17 @@
         .case-study__left-block {
           .case-study__sub-header {
             padding-top: 179px;
+            padding-left: 50px;
+            @media (max-width:$media-xlg){
+              padding-top: 120px;
+            }
             @media (max-width: $media-md) {
               padding-top: 80px;
+              padding-left: 30px;
             }
             @media (max-width: $media-sm) {
               padding-top: 20px;
+              padding-left: 0px;
             }
             @media (max-width: $media-xs) {
               padding-top: 0px;
@@ -65,9 +71,9 @@
               // line-height: 105px;
               font-family: $font-1;
               font-weight: $bold;
-              @media (max-width: $media-sm) {
-                font-size: 30px;
-                line-height: 40px;
+              @media (max-width: $media-xlg) {
+                font-size: 25px;
+                line-height: 35px;
               }
               @media (max-width: $media-xs) {
                 font-size: 20px;
@@ -84,6 +90,11 @@
               max-width: 338px;
               margin: 0;
               padding-top: 12px;
+              @media (max-width:$media-xlg){
+                font-size: 18px;
+                line-height: 26px;
+                max-width: 205px;
+              }
               @media (max-width: $media-sm) {
                 padding-bottom: 12px;
                 font-size: 20px;
@@ -120,6 +131,9 @@
           }
           .live-stream__discription {
             padding-top: 70px;
+            @media (max-width:$media-xlg){
+              padding-top: 40px;
+            }
             @media (max-width: $media-xs) {
               padding-top: 31px;
             }
@@ -133,10 +147,13 @@
               padding-bottom: 15px;
               max-width: 873px;
               width: 100%;
-              @media (max-width: $media-sm) {
-                max-width: 550px;
-                font-size: 16px;
-                line-height: 26px;
+              @media (max-width: $media-xlg) {
+                max-width: 605px;
+                font-size: 12px;
+                line-height: 19px;
+              }
+              @media (max-width:$media-sm){
+                max-width: 520px;
               }
               @media (max-width: $media-xs) {
                 max-width: 367px;
@@ -147,8 +164,8 @@
           }
           .case-study__changes-header {
             padding-top: 43px;
-            @media (max-width: $media-sm) {
-              padding-top: 30px;
+            @media (max-width: $media-xlg) {
+              padding-top: 20px;
             }
             .challenge {
               margin: 0;
@@ -157,9 +174,9 @@
               color: $primary;
               font-family: $font-1;
               font-weight: $bold;
-              @media (max-width: $media-xs) {
-                font-size: 26px;
-                line-height: 36px;
+              @media (max-width: $media-xlg) {
+                font-size: 18px;
+                line-height: 26px;
               }
             }
             .change__discription {
@@ -170,9 +187,10 @@
               font-weight: $regular;
               margin: 0;
               padding-top: 15px;
-              @media (max-width: $media-xs) {
-                font-size: 17px;
-                line-height: 27px;
+              @media (max-width: $media-xlg) {
+                font-size: 14px;
+                line-height: 20px;
+                padding-top: 8px;
               }
             }
             .change-list {
@@ -184,9 +202,11 @@
                 font-family: $font-1;
                 font-weight: $regular;
                 padding-top: 7px;
-                @media (max-width: $media-xs) {
-                  font-size: 16px;
-                  line-height: 28px;
+                list-style: disc !important;
+                margin-left: 15px;
+                @media (max-width: $media-xlg) {
+                  font-size: 12px;
+                  line-height: 20px;
                 }
               }
               @media (max-width: $media-xs) {
@@ -201,6 +221,13 @@
                 font-family: $font-1;
                 color: $primary;
                 font-weight: $regular;
+                list-style: disc;
+                margin-left: 15px;
+                padding-bottom: 20px;
+                @media (max-width:$media-xlg){
+                  font-size: 14px;
+                  line-height: 20px;
+                }
               }
             }
           }
@@ -211,9 +238,14 @@
             padding-left: 80px;
             padding-top: 85px;
             border-radius: 10px 0px;
+            @media (max-width:$media-xlg){
+              padding-left: 50px;
+              padding-top: 50px;
+            }
             @media (max-width: $media-xs) {
               padding-left: 30px;
               padding-top: 57px;
+              padding-right: 20px;
             }
             .solution__header {
               .challenge--white-font {
@@ -223,11 +255,12 @@
                 color: $white;
                 font-family: $font-1;
                 font-weight: $bold;
-                @media (max-width: $media-xs) {
-                  font-size: 25px;
-                  line-height: 35px;
+                @media (max-width: $media-xlg) {
+                  font-size: 20px;
+                  line-height: 25px;
                 }
               }
+           
               .change__discription--white-font {
                 font-size: 20px;
                 line-height: 28px;
@@ -236,9 +269,18 @@
                 font-weight: $regular;
                 margin: 0;
                 padding-top: 11px;
+                font-size: 14px;
+                line-height: 28px;
+                max-width: 625px;
+                list-style: disc;
+                margin-left: 15px;
               }
+            
               .change-list--white-font {
                 padding-top: 38px;
+                @media (max-width:$media-xlg){
+                  padding-top: 10px;
+                }
                 li {
                   font-size: 18px;
                   line-height: 28px;
@@ -247,6 +289,10 @@
                   font-weight: $regular;
                   padding-top: 7px;
                   list-style: inside;
+                  @media (max-width:$media-xlg){
+                    font-size: 14px;
+                    line-height: 18px;
+                  }
                 }
               }
             }
