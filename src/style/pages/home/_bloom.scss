@@ -24,6 +24,10 @@
         margin: auto;
         padding-left: 30px;
         padding-right: 30px;
+        @media(max-width:$media-sm){
+          padding-left: 0px;
+          padding-right: 0px;
+        }
       }
       .grid {
         @media (max-width: $media-md) {
@@ -201,7 +205,7 @@
       .gitex-block {
         @media (max-width: $media-xlg) {
           display: flex;
-          justify-content: center;
+          // justify-content: center;
           align-items: center;
         }
         @media (max-width: $media-sm) {
@@ -213,7 +217,7 @@
             max-width: 200px;
           }
           @media (max-width: $media-xlg) {
-           max-width: 250px;
+           max-width: 215px;
           }
         }
       }
@@ -225,9 +229,9 @@
           font-weight: $bold;
           line-height: 40px;
           @media (max-width: $media-xlg) {
-           font-size: 25px;
-           line-height: 35px;
-           max-width: 610px;
+           font-size: 20px;
+           line-height: 26px;
+           max-width: 600px;
           }
           @media (max-width: $media-sm) {
             font-size: 23px;
@@ -241,14 +245,14 @@
       padding-left: 50px;
       padding-right: 50px;
       @media (max-width: $media-xlg) {
-        padding-top: 110px;
+        padding-top:85px;
         padding-left: 0;
         padding-right: 0;
       }
       @media (max-width: $media-md) {
         padding-top: 70px;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 0px;
+        padding-right: 0px;
       }
     }
   }

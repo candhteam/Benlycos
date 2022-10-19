@@ -209,6 +209,11 @@
                 grid-template-columns: 40px 15px 100px 15px 40px 15px 40px;
                 gap: 20px;
               }
+              @media (max-width: $media-sm) {
+                grid-template-columns:  40px 10px 90px 20px 40px 15px 40px;
+                gap: 15px;
+              }
+             
               .number {
                 font-size: 70px;
                 line-height: 70px;

@@ -11,6 +11,12 @@
     @media (max-width:$media-xlg){
       padding-top: 5px;
     }
+    @media (max-width:$media-md){
+      padding-top: 15px;
+    }
+    @media (max-width:$media-sm){
+      padding-top: 25px;
+    }
     .container {
       .grid {
         align-items: center;
